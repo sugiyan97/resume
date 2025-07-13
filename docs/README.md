@@ -78,10 +78,13 @@ layout: doc
 - **プロジェクト規模：**
   - 4〜5 人チームでのアジャイル開発
 - **使用技術：**
+  - 共通
+    - Gin(golang), Docker, Vagrant, Protocol Buffers(gRPC, Twirp), AWS(s3), Fluentd, memcached, Node
+    - GoogleCloud(Spanner, Cloud Build, GKE, Redis, MySQL 5.7.26)
   - ゲーム 1(途中から参画）
-    - Go 1.16, Gin, Protocol Buffers(gRPC, Twirp), GoogleCloud(Spanner, Cloud Build, GKE, Redis, MySQL 5.7.26), AWS(s3), HTML&CSS, JavaScript, jQuery, Datatables, Node, React, Docker, Vagrant, Fluentd, memcached
+    - Go 1.16, HTML&CSS, JavaScript, jQuery, Datatables, React
   - ゲーム 2(新規開発）
-    - Go 1.22, Gin, Protocol Buffers(gRPC, Twirp, connect-web), GoogleCloud(Spanner, Cloud Build, GKE, Redis, MySQL 5.7.26), AWS(s3), Vue3, TypeScript, Element Plus, Pinia, Docker, Vagrant, Fluentd, memcached
+    - Go 1.22, Protocol Buffers(connect-web), Vue3, TypeScript, Element Plus, Pinia
 - **役割：**
   - ゲーム 1
     - Backend API の新規作成・改修・バグ修正
@@ -115,15 +118,19 @@ RAG を使った生成 AITeamsBot の開発。
 - **プロジェクト規模：**
   - 2〜5 人チームでのアジャイル開発
 - **使用技術：**
+  - 共通
+    - Python 3.11, AWS(S3, Kendra, Bedrock, Lambda), Docker
   - PoC フェーズ
     - PoC 版
-      - Python 3.11, AWS(sam, Lambda, API Gateway, s3, Kendra, Bedrock), Copilot Studio(旧 Power Virtual Agents)
+      -  AWS(sam, API Gateway), Copilot Studio(旧 Power Virtual Agents)
     - α版
-      - Python 3.11, FastAPI, AWS(WAF, SSM, App Runner, ECS, Code Commit, s3, Kendra, Bedrock), Terraform, Docker
+      - FastAPI, AWS(WAF, SSM, App Runner, ECS, Code Commit), Terraform
     - β版
-      - Python 3.11, FastAPI, LangChain, AWS(WAF, SSM, App Runner, ECS, Code Commit, s3, Kendra, Bedrock, DynamoDB, Lambda, Cloud Watch Event), Terraform, Docker
+      - FastAPI, LangChain, AWS(WAF, SSM, App Runner, ECS, Code Commit, DynamoDB, Cloud Watch Event), Terraform
   - プロダクト化版フェーズ
-    - Python 3.11, FastAPI, LangChain, TypeScript, Node, BotFramework, AWS(WAF, SSM, App Runner, ECS, s3, Kendra, Bedrock, DynamoDB, Lambda, Cloud Watch Event), Azure(Bot Service, App Service), GitHub, Terraform, Docker, k6
+    - FastAPI, LangChain, TypeScript, Node, BotFramework, GitHub, Terraform, k6
+    - AWS(WAF, SSM, App Runner, ECS, DynamoDB, Cloud Watch Event)
+    - Azure(Bot Service, App Service)
 - **役割：**
   - PoC フェーズ
     - ノーコードツールを利用しての Teams ボット開発・運用（β版にて移行）
@@ -133,7 +140,7 @@ RAG を使った生成 AITeamsBot の開発。
     - シンプルな RAG の実装
     - Teams ボット側の表示方法の改良
     - 運用環境効率化に伴うアーキテクチャ・インフラ設計・インフラの Terraform 化（AWS, Azure)
-    - 署名付き URL のサポート（s3)
+    - 署名付き URL のサポート（S3)
     - データ集計ツールの開発・運用
     - 技術検証・調査・技術選定
   - プロダクト化版フェーズ
@@ -173,7 +180,7 @@ RAG を使った生成 AITeamsBot の開発。
 - **プロジェクト規模：**
   - 3 人チームでのアジャイル開発
 - **使用技術：**
-  - HTML&CSS, JavaScript, Lambda, S3
+  - HTML&CSS, JavaScript, AWS(Lambda, S3)
 - **役割：**
   - 機能追加（コーディング）、GitHub の利用推進、ドキュメントの用意
   - 新規プロダクト企画案・レビュー
