@@ -1,5 +1,6 @@
 ---
 layout: doc
+title: "CV of Yoshiyuki Sugiyama"
 ---
 
 # 職務経歴書
