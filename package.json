@@ -5,7 +5,7 @@
   "license": "(MIT OR Apache-2.0)",
   "scripts": {
     "lint": "textlint docs/README.md",
-    "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js"
+    "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js  --launch-options '{\"args\": [\"--no-sandbox\"]}'"
   },
   "keywords": [],
   "devDependencies": {
