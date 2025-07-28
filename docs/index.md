@@ -227,8 +227,10 @@ Personal Health Record(PHR)データ管理アプリ（ios, Android)のバック�
 - **その他：**
   - 運用中の BtoC アプリに対しての新機能追加
   - Bluetooth アプリ連携
-  - Clean Architecuture 開発（生活習慣データの記録アプリ）
-  - Repository パターン開発（同意情報管理アプリの API 開発）
+  - Clean Architecuture
+    生活習慣データの記録アプリ
+  - Repository パターン開発
+    同意情報管理アプリ
 :::
 
 :::details 2022/10〜2022/11      LP からの注文受付システム開発（業務委託： 副業）{close}
