@@ -25,9 +25,17 @@ title: "CV of Yoshiyuki Sugiyama"
 
 ## 保有スキル
 
-- Web アプリケーションの要件定義~運用
-- フロントエンドアーキテクチャの再構築
-- 大規模アクセスに対応できる API 開発
+- Web アプリケーションの要件定義・設計・開発・運用(フロントエンド・バックエンド)
+- 大規模アクセスに対応できる API 開発(gRPC等)
+- フロントエンドのリアーキテクチャ
+  - 古い技術スタックから最新の技術スタックへの移行
+- バックエンドの負荷改善(k6等の利用)
+- AIチャットボットの構築(RAG)
+  - フルスクラッチのボット開発からノーコードツールを用いた開発まで対応
+- クラウドを用いた開発(AWS, Google Cloud, Azure)
+- 業務改善ツールの作成
+- 非ITの方への要件提案・納品等対応
+- PHR領域の知見
 
 
 ---
@@ -44,9 +52,9 @@ title: "CV of Yoshiyuki Sugiyama"
 |<img alt="Go" src="https://img.shields.io/badge/golang-00ADD8?&style=flat-square&lastic&logo=go&logoColor=white" />|3 年|
 |<img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white" />|3 年|
 |<img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />|2 年|
+|<img alt="C#" src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=unity&logoColor=white" />|2 年|
 |<img alt="Ruby" src="https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=Ruby&logoColor=white" />|1 年|
 |<img alt="Java" src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=Java&logoColor=white" />|1 年|
-
 
 </div>
 
@@ -59,8 +67,8 @@ title: "CV of Yoshiyuki Sugiyama"
 |<img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" />|2 年|
 |<img alt="Flask" src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white" />|2 年|
 |<img alt="Django" src="https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=Django&logoColor=white" />|2 年|
+|<img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />|1 年|
 |<img alt="Ruby-on-Rails" src="https://img.shields.io/badge/-Rails-CC0000?style=flat-square&logo=Ruby-on-Rails&logoColor=white" />|1 年|
-
 
 </div>
 </div>
@@ -113,7 +121,7 @@ title: "CV of Yoshiyuki Sugiyama"
 
 :::details 2023/11〜現在      ナレッジ参照の AI チャットアプリ開発（業務委託： 副業）{open}
 
-RAG を使った生成 AITeamsBot の開発。
+RAG を用いた生成 AI TeamsBot の開発。
 
 
 - **プロジェクト規模：**
@@ -138,7 +146,7 @@ RAG を使った生成 AITeamsBot の開発。
     - 開発環境移行（ノーコードツールから Azure Bot Framework を利用しての開発へ）
     - DynamoDB のテーブル設計
     - Backend API 設計
-    - シンプルな RAG の実装
+    - シンプルな RAG の実装(AWSサービスを利用)
     - Teams ボット側の表示方法の改良
     - 運用環境効率化に伴うアーキテクチャ・インフラ設計・インフラの Terraform 化（AWS, Azure)
     - 署名付き URL のサポート（S3)
@@ -191,6 +199,155 @@ RAG を使った生成 AITeamsBot の開発。
   - メンテナンスなしプロダクトでの新機能追加・保守対応支援
 :::
 
+:::details 2023/01〜2023/07      医療系アプリのサーバサイド開発（業務委託： 副業）{close}
+
+PHR(Personal Health Record)データ管理アプリ(ios, Android)のバックエンドAPIの設計書作成・機能追加・改修・デバッグ。  
+同意情報管理アプリのAPI新規開発。
+
+- **プロジェクト規模：**
+  - 3~5 人チームでのアジャイル開発
+- **使用技術：**
+  - 共通
+    - MySQL 5.7, Amazon Linux, Docker, Gin(Golang)
+  - 生活習慣データの記録アプリ(既存)
+    - Golang(1.17)
+  - 同意情報管理アプリのAPI開発(新規)
+    - Golang(1.20.3)
+- **役割：**
+  - 生活習慣データの記録アプリ(既存)
+    - 既存APIの改修・リファクタ
+    - 新規Bluetoothアプリとの連携追加対応(認証, API連携, 内部ロジックの新規開発)
+    - バグ調査・修正対応(優先度, 各種デバイス連携, 他アプリとの連携)
+    - 内部テスト対応(ios, Android)
+    - 詳細設計書の用意(フロー図, シーケンス図)
+  - 同意情報管理アプリのAPI開発(新規)
+    - APIの新規作成
+    - 既存処理の改修・リファクタ
+    - UnitTestの導入(go-mock, .http対応)
+- **その他：**
+  - 運用中のBtoCアプリに対しての新機能追加
+  - Bluetoothアプリ連携
+  - Clean Architecuture開発(生活習慣データの記録アプリ)
+  - Repository パターン開発(同意情報管理アプリのAPI開発)
+:::
+
+:::details 2022/10〜2022/11      LPからの注文受付システム開発（業務委託： 副業）{close}
+
+LPからの注文受付システムの決済機能追加。
+
+- **プロジェクト規模：**
+  - 2 人チームでのウォーターフォール開発
+- **使用技術：**
+  - Python 3.8.10, DRF 4.1.1(Python), MySQL, Ubuntu(20.04), AWS(EC2, RDS)
+- **役割：**
+  - GMO APIを利用してクレジットカード決済機能の追加
+  - SSH MaxConnections値の調整とリトライ対応
+  - システムテストの実施
+  - 機能リファクタの実施
+  - 負荷テストの実施とテスト用スクリプトの作成
+    - 同時実施要件に耐えられるように
+- **その他：**
+  - クレジットカード決済連携
+:::
+
+
+:::details 2013/08〜2022/03      PHR流通基盤の開発（業務委託）{close}
+
+PHR(Personal Health Record)データの流通を管理する基盤の新規開発。  
+途中よりリードエンジニアとして技術部分のリード作業。
+
+- **プロジェクト規模：**
+  - 3 人チームでのアジャイル開発
+- **使用技術：**
+  - Python 3.8, Flask 2.0.2(Python), nginx, pybael, peewee(Python), Swagger, oneM2M
+  - AWS(Lightsail, RDS, EC2), Ubuntu 20.04, MySQL
+- **役割：**
+  - 技術調査・検証・選定
+    - 特殊ライブラリ(oneM2M)
+  - 設計書の作成・レビュー対応
+  - API開発・コードレビュー対応
+  - APIの多言語対応(日, 英)
+  - UnitTestの作成(カバレッジ率: 97%)
+  - デプロイ・リリース対応
+- **その他：**
+  - 開発の8割を担当
+  - リードエンジニア作業
+  - ニッチな分野の特殊ライブラリのマスター(oneM2M) 
+  - 国プロとしての対応
+:::
+
+:::details 2021/01〜2021/12      メッセージ配信・最適化ソリューション開発支援（業務委託： 副業）{close}
+
+メッセージ配信・最適化ソリューションの配信テスト支援。  
+LineチャットボットのPoC開発。
+
+
+- **プロジェクト規模：**
+  - 10 人チームでのアジャイル開発
+- **使用技術：**
+  - AWS(s3, Cloud Watch, cli), Dialogflow CX(Google)
+- **役割：**
+  - WebアプリケーションのUI・アプリ配信(ios)テストの実施
+  - ログ分析
+  - マニュアルの新規作成
+  - テスト仕様書の作成
+  - 別プロダクトのテスト支援
+  - トラブル解決のためのLineチャットボットの試作
+- **その他：**
+  - Dialogflow CX(NoCode)を用いたボット開発
+  - Lineチャットボット連携
+:::
+
+:::details 2020/10〜2021/07      ネットワーク運用管理システム開発（社員）{close}
+
+ネットワーク機器の運用・管理Webアプリケーションの機能追加対応。
+
+- **プロジェクト規模：**
+  - 10 人チームでのアジャイル開発
+- **使用技術：**
+  - Python 3.6, Django 3.0(Python), HTML&CSS, JavaScript, jQuery, Bootstrap, PostgreSQL, Ubuntu 20.04, CentOS7, 8
+- **役割：**
+  - Webアプリケーションの機能追加(フロントエンド, バックエンド)
+  - 追加機能の要件定義・基本設計作成・レビュー対応
+  - DB設計
+  - Syslog通知の技術調査・検証・要件定義~総合テスト
+  - 機能追加の工数だし
+  - コードレビュー対応
+  - 他者作業のヘルプ
+- **その他：**
+  - 他者作業の技術サポート
+:::
+
+:::details 2017/10〜2020/08      空調機器管理システム開発（社員, 業務委託）{close}
+
+空調機器を用いたWebアプリケーション・業務アプリケーションの開発。  
+お客さんとの直接作業。
+
+- **プロジェクト規模：**
+  - 3~10 人チームでのアジャイル開発
+- **使用技術：**
+  - 共通
+    - HTML&CSS, JavaScript, jQuery
+  - 業務Webアプリケーション1(ビル系)
+    - Java(Struts, Spring), Uunit, PostgreSQL
+  - 業務Webアプリケーション2(工場系)
+    - Ruby(Ruby on Rails), Rspec, Sidekiq, Angular JS, PostgreSQL, Vagrant, Virtual Box, Docker
+  - 業務アプリケーション1(ビル系, 薬学系)
+    - C#(.NET Framework), SQLServer
+  - 業務アプリケーション2(ビル系)
+    - C++, VB6, VGA, PostgreSQL
+- **役割：**
+  - Webアプリケーションの新規開発・機能追加・バグ修正(フロントエンド, バックエンド)
+  - 要件定義~総合テストの実施
+  - 技術調査(Sidekiq)
+  - バグ・パケット調査
+  - お客さん対応
+    - 納品周りのやりとり、質問・要件定義対応、納品PCの作成
+- **その他：**
+  - 古いシステムのC#へのリプレイス
+  - 他プロダクトのフレームワークリプレイス支援
+  - 顧客折衝対応
+:::
 
 ## 意欲・興味
 
