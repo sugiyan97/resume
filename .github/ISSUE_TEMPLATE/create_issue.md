@@ -1,7 +1,9 @@
 ---
+name: Update Resume Request Issue
+about: Use this template for update resume issue.
 title: 職務経歴書を更新してください【{{ date | date('YYYY/MM/DD') }}】
-assignees: sugiyan97
 labels: enhancement
+assignees: sugiyan97
 ---
 
 四半期が経過しました。  
