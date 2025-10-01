@@ -16,5 +16,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: JasonEtco/create-an-issue@v2
+        with:
+          filename: .github/ISSUE_TEMPLATE/create_issue.md
+          update_existing: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
