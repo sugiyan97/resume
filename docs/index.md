@@ -123,7 +123,7 @@ title: "CV of Yoshiyuki Sugiyama"
 :::details 2023/11〜2025/07      社内ナレッジ参照の AI チャットアプリ開発（業務委託： 副業）{close}
 
 RAG を用いた社内ナレッジ参照の生成 AI TeamsBot の開発。
-利用ユーザは2500名。
+利用ユーザは 2500 名。
 
 - **プロジェクト規模：**
   - 2〜5 人チームでのアジャイル開発
@@ -166,7 +166,7 @@ RAG を用いた社内ナレッジ参照の生成 AI TeamsBot の開発。
       - LangChain パラメータ調整
       - モデルに合わせたテンプレート調整
       - RAGAS 実装サポート・精度改善検証対応
-        - 4値を利用して評価・検証（Answer Relevency, Context Recall, Context Precision, Faithfulness)
+        - 4 値を利用して評価・検証（Answer Relevency, Context Recall, Context Precision, Faithfulness)
     - RAG のデータソース追加対応（SharePoint, Zendesk)
     - メンバー増員に伴うドキュメント化（開発ノウハウ、運用ルールの明文化）
     - メンバー増員に伴うエンジニアのマネジメント・支援（コードレビュー, ヘルプ対応）
