@@ -20,7 +20,6 @@ title: "CV of Yoshiyuki Sugiyama"
 <p style="display: flex; gap: 8px; flex-wrap: wrap;">
   <a href="https://github.com/sugiyan97" target="_blank"><img alt="Github" src="https://img.shields.io/badge/sugiyan97-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white" /></a>
   <a href="https://x.com/sugiyan97_tech" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/@sugiyan97-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white" /></a>
-
 </p>
 
 ---
@@ -51,8 +50,8 @@ title: "CV of Yoshiyuki Sugiyama"
 |言語|業務経験|
 |---|---|
 |<img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />|7 年|
-|<img alt="Go" src="https://img.shields.io/badge/golang-00ADD8?&style=flat-square&lastic&logo=go&logoColor=white" />|3 年|
-|<img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white" />|3 年|
+|<img alt="Go" src="https://img.shields.io/badge/golang-00ADD8?&style=flat-square&lastic&logo=go&logoColor=white" />|4 年|
+|<img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white" />|4 年|
 |<img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />|2 年|
 |<img alt="C#" src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=unity&logoColor=white" />|2 年|
 |<img alt="Ruby" src="https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=Ruby&logoColor=white" />|1 年|
@@ -64,7 +63,7 @@ title: "CV of Yoshiyuki Sugiyama"
 
 |フレームワーク|業務経験|
 |---|---|
-|<img alt="Gin" src="https://img.shields.io/badge/Gin-1.x-00C397?style=flat-square&logo=go&logoColor=white" />|3 年|
+|<img alt="Gin" src="https://img.shields.io/badge/Gin-1.x-00C397?style=flat-square&logo=go&logoColor=white" />|4 年|
 |<img alt="Vue" src="https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white" />|2 年|
 |<img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" />|2 年|
 |<img alt="Flask" src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white" />|2 年|
@@ -121,10 +120,10 @@ title: "CV of Yoshiyuki Sugiyama"
 :::
 
 
-:::details 2023/11〜現在      ナレッジ参照の AI チャットアプリ開発（業務委託： 副業）{open}
+:::details 2023/11〜2025/07      社内ナレッジ参照の AI チャットアプリ開発（業務委託： 副業）{close}
 
-RAG を用いた生成 AI TeamsBot の開発。
-
+RAG を用いた社内ナレッジ参照の生成 AI TeamsBot の開発。
+利用ユーザは2500名。
 
 - **プロジェクト規模：**
   - 2〜5 人チームでのアジャイル開発
@@ -167,7 +166,7 @@ RAG を用いた生成 AI TeamsBot の開発。
       - LangChain パラメータ調整
       - モデルに合わせたテンプレート調整
       - RAGAS 実装サポート・精度改善検証対応
-        - 4 値を利用して評価・検証（Answer Relevency, Context Recall, Context Precision, Faithfulness)
+        - 4値を利用して評価・検証（Answer Relevency, Context Recall, Context Precision, Faithfulness)
     - RAG のデータソース追加対応（SharePoint, Zendesk)
     - メンバー増員に伴うドキュメント化（開発ノウハウ、運用ルールの明文化）
     - メンバー増員に伴うエンジニアのマネジメント・支援（コードレビュー, ヘルプ対応）
@@ -180,6 +179,7 @@ RAG を用いた生成 AI TeamsBot の開発。
   - AI チャットとしての回答精度改善対応
   - 目標値に向けた負荷試験実施・対応
   - AWS, Azure を利用したマルチクラウド開発
+  - 中規模ユーザが利用するアプリ開発
 :::
 
 :::details 2023/09〜2024/08      防災気象 Web アプリケーション開発・運用（業務委託： 副業）{close}
