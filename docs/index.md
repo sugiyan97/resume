@@ -19,6 +19,8 @@ title: "CV of Yoshiyuki Sugiyama"
 
 <p style="display: flex; gap: 8px; flex-wrap: wrap;">
   <a href="https://github.com/sugiyan97" target="_blank"><img alt="Github" src="https://img.shields.io/badge/sugiyan97-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white" /></a>
+  <a href="https://x.com/sugiyan97_tech" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/@sugiyan97-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white" /></a>
+
 </p>
 
 ---
