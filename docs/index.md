@@ -108,7 +108,8 @@ title: "CV of Yoshiyuki Sugiyama"
     - Backend API の新規作成・改修・バグ修正
     - 管理者ツールのフロントエンド最新技術化・バックエンドとの通信方法に Protocol Buffers を使い Schema の管理を統一
     - 管理者ツールの機能追加・改修・バグ修正（フロントエンド開発・機能追加のリード）
-    - Spanner 負荷対策（Index 設計、クエリ調整、トランザクション分散）
+    - Spanner 負荷対策
+      - Index 設計、STORING(Index)の活用、クエリ調整、トランザクション分散
     - 負荷試験の実施・結果対応
     - KPI 設計・実装（Fluent)
     - コードレビュー対応
