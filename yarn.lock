@@ -4282,7 +4282,7 @@ regex@^6.0.1:
   dependencies:
     regex-utilities "^2.3.0"
 
-regexp.prototype.flags@^1.1.1, regexp.prototype.flags@^1.4.3, regexp.prototype.flags@^1.5.4:
+regexp.prototype.flags@^1.1.1, regexp.prototype.flags@^1.4.3, regexp.prototype.flags@^1.5.3, regexp.prototype.flags@^1.5.4:
   version "1.5.4"
   resolved "https://registry.npmjs.org/regexp.prototype.flags/-/regexp.prototype.flags-1.5.4.tgz"
   integrity sha512-dYqgNSZbDwkaJ2ceRd9ojCGjBq+mOm9LmtXnAnEGyHhN/5R7iDW2TRw3h+o/jCFxus3P2LfWIIiwowAjANm7IA==
@@ -5397,7 +5397,7 @@ textlint-rule-preset-ja-technical-writing@^3.1.3:
     textlint-rule-preset-jtf-style "^2.3.3"
     textlint-rule-sentence-length "^2.1.1"
 
-textlint-rule-preset-jtf-style@^2.3.3, textlint-rule-preset-jtf-style@^2.3.4:
+textlint-rule-preset-jtf-style@^2.3.3:
   version "2.3.14"
   resolved "https://registry.npmjs.org/textlint-rule-preset-jtf-style/-/textlint-rule-preset-jtf-style-2.3.14.tgz"
   integrity sha512-xkVclRrC921eejsDP79dt7UhwT15825etgQSQx8SvOqaPRNwDdQ7kzep4LIyrdLgPm/3k/gX8qyw0BrN02U27w==
@@ -5410,6 +5410,20 @@ textlint-rule-preset-jtf-style@^2.3.3, textlint-rule-preset-jtf-style@^2.3.4:
     regx "^1.0.4"
     textlint-rule-helper "^2.2.1"
     textlint-rule-prh "^5.2.1"
+
+textlint-rule-preset-jtf-style@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/textlint-rule-preset-jtf-style/-/textlint-rule-preset-jtf-style-3.0.3.tgz#1f6993818ebea31286d219e1dec0e84f83049fcb"
+  integrity sha512-NTvqjg3oMTGjSDoH6MnYu+DDWW6cEghA66Lb8N0bheTphAj99aaG10HGhwTfDbaH2P6NfPQvRP5ISxiXCT9zdg==
+  dependencies:
+    analyze-desumasu-dearu "^2.1.2"
+    japanese-numerals-to-number "^1.0.2"
+    match-index "^1.0.3"
+    moji "^0.5.1"
+    regexp.prototype.flags "^1.5.3"
+    regx "^1.0.4"
+    textlint-rule-helper "^2.3.1"
+    textlint-rule-prh "^6.0.0"
 
 textlint-rule-prh@^3.1.1:
   version "3.1.3"
@@ -5430,7 +5444,7 @@ textlint-rule-prh@^5.2.1:
     textlint-rule-helper "^2.1.1"
     untildify "^3.0.3"
 
-textlint-rule-prh@^6.1.0:
+textlint-rule-prh@^6.0.0, textlint-rule-prh@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/textlint-rule-prh/-/textlint-rule-prh-6.1.0.tgz#8fcbb953d23f863a362acbad0e927048ab473af3"
   integrity sha512-KrchADHw1/LZ/tAQ2XwL/XdUhunKCvlNmwgp+6hdyzuWX7uojOkDdJWWV0KAN4XWsK6Te5w/SZcYwQ7X6i3B0A==
