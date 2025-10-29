@@ -31,9 +31,11 @@ title: "CV of Yoshiyuki Sugiyama"
 - フロントエンドのリアーキテクチャ
   - 古い技術スタックから最新の技術スタックへの移行
 - バックエンドの負荷改善（k6 等の利用）
-- 社内 2500 名が使う AI チャットボットの構築（RAG)
+- 社内 2500 名が使う RAG AI チャットボットの構築
   - フルスクラッチのボット開発からノーコードツールを用いた開発まで対応
-- クラウドを用いた開発（AWS, Google Cloud, Azure)
+- クラウドを用いた開発
+  - AWS, Google Cloud, Azure
+  - 上記を利用したマルチクラウド化
 - 業務改善ツールの作成
 - 非 IT の方への要件提案・納品等対応
 - PHR 領域の知見
@@ -91,27 +93,27 @@ title: "CV of Yoshiyuki Sugiyama"
   - 共通
     - Gin(golang), Docker, Vagrant, Protocol Buffers(gRPC, Twirp), AWS(s3), Fluentd, memcached, Node
     - GoogleCloud(Spanner, Cloud Build, GKE, Redis, MySQL 5.7.26)
-  - ゲーム 1(途中から参画）
+  - ゲーム 1
     - Go 1.16, HTML&CSS, JavaScript, jQuery, Datatables, React
-  - ゲーム 2(新規開発）
+  - ゲーム 2
     - Go 1.22, Protocol Buffers(connect-web), Vue3, TypeScript, Element Plus, Pinia
 - **役割：**
-  - ゲーム 1
+  - ゲーム 1 途中から参画
     - Backend API の新規作成・改修・バグ修正
     - 管理者ツールの機能追加・改修・バグ修正
     - Spanner 負荷対策（Index 設計、クエリ調整、トランザクション分散）
     - Redis キャッシュ設計
     - Twitch プラットフォーム連携対応（Backend API 対応、Twitch Extension 対応）
-    - KPI 設計・実装（Fluent)
+    - KPI 設計・実装
     - コードレビュー対応
-  - ゲーム 2
+  - ゲーム 2 新規開発
     - Backend API の新規作成・改修・バグ修正
     - 管理者ツールのフロントエンド最新技術化・バックエンドとの通信方法に Protocol Buffers を使い Schema の管理を統一
     - 管理者ツールの機能追加・改修・バグ修正（フロントエンド開発・機能追加のリード）
     - Spanner 負荷対策
       - Index 設計、STORING(Index)の活用、クエリ調整、トランザクション分散
     - 負荷試験の実施・結果対応
-    - KPI 設計・実装（Fluent)
+    - KPI 設計・実装
     - コードレビュー対応
 - **その他：**
   - ゲームレベルの DB データのテーブル設計・Index 設計・チューニング
@@ -133,7 +135,7 @@ RAG を用いた社内ナレッジ参照の生成 AI TeamsBot の開発。
     - Python 3.11, AWS(S3, Kendra, Bedrock, Lambda), Docker
   - PoC フェーズ
     - PoC 版
-      -  AWS(sam, API Gateway), Copilot Studio(旧 Power Virtual Agents)
+      -  AWS（sam, API Gateway）, Copilot Studio（旧 Power Virtual Agents）
     - α版
       - FastAPI, AWS(WAF, SSM, App Runner, ECS, Code Commit), Terraform
     - β版
@@ -150,15 +152,16 @@ RAG を用いた社内ナレッジ参照の生成 AI TeamsBot の開発。
     - Backend API 設計
     - シンプルな RAG の実装（AWS サービスを利用）
     - Teams ボット側の表示方法の改良
-    - 運用環境効率化に伴うアーキテクチャ・インフラ設計・インフラの Terraform 化（AWS, Azure)
-    - 署名付き URL のサポート（S3)
+    - 運用環境効率化に伴うアーキテクチャ・インフラ設計・インフラの Terraform 化
+      - AWS, Azure
+    - s3 署名付き URL のサポート
     - データ集計ツールの開発・運用
     - 技術検証・調査・技術選定
   - プロダクト化版フェーズ
-    - Backend の負荷試験・負荷を考慮した対応（API, App Runner, Bedrock)
+    - Backend の負荷試験・負荷を考慮した対応
       - API の並列処理対応
-      - インフラのスペック増加、並列処理用対応
-      - クロスリージョン推論対応
+      - App Runner のインフラのスペック増加、並列処理用対応
+      - Bedrock でクロスリージョン推論対応
     - Teams ボットの複数展開対応（マルチテナント対応、 ブランチ制御対応）
     - ログのフォーマット化
     - RAG の精度改善検証
@@ -167,8 +170,10 @@ RAG を用いた社内ナレッジ参照の生成 AI TeamsBot の開発。
       - LangChain パラメータ調整
       - モデルに合わせたテンプレート調整
       - RAGAS 実装サポート・精度改善検証対応
-        - 4 値を利用して評価・検証（Answer Relevency, Context Recall, Context Precision, Faithfulness)
-    - RAG のデータソース追加対応（SharePoint, Zendesk)
+        - 4 値を利用して評価・検証
+          - Answer Relevency, Context Recall, Context Precision, Faithfulness
+    - RAG のデータソース追加対応
+      - SharePoint, Zendesk
     - メンバー増員に伴うドキュメント化（開発ノウハウ、運用ルールの明文化）
     - メンバー増員に伴うエンジニアのマネジメント・支援（コードレビュー, ヘルプ対応）
     - Code Coommit から GitHub へ移行
@@ -204,7 +209,7 @@ RAG を用いた社内ナレッジ参照の生成 AI TeamsBot の開発。
 
 :::details 2023/01〜2023/07      医療系アプリのサーバサイド開発（業務委託： 副業）{close}
 
-Personal Health Record(PHR)データ管理アプリ（ios, Android)のバックエンド API の設計書作成・機能追加・改修・デバッグ。  
+toC 向け Personal Health Record（PHR）データ管理アプリのバックエンド API の設計書作成・機能追加・改修・デバッグ。  
 同意情報管理アプリの API 新規開発。
 
 - **プロジェクト規模：**
@@ -221,7 +226,8 @@ Personal Health Record(PHR)データ管理アプリ（ios, Android)のバック�
     - 既存 API の改修・リファクタ
     - 新規 Bluetooth アプリとの連携追加対応（認証、 API 連携、 内部ロジックの新規開発）
     - バグ調査・修正対応（優先度、 各種デバイス連携、 他アプリとの連携）
-    - 内部テスト対応（ios, Android)
+    - 内部テスト対応
+      - ios, Android
     - 詳細設計書の用意（フロー図、 シーケンス図）
   - 同意情報管理アプリの API 開発（新規）
     - API の新規作成
@@ -266,18 +272,19 @@ Personal Health Record(PHR)データの流通を管理する基盤の新規開�
 - **使用技術：**
   - Python 3.8, Flask 2.0.2(Python), nginx, pybael, peewee(Python), Swagger, oneM2M
   - AWS(Lightsail, RDS, EC2), Ubuntu 20.04, MySQL
+  - ライブラリ
+    - oneM2M
 - **役割：**
-  - 技術調査・検証・選定
-    - 特殊ライブラリ（oneM2M)
+  - 特殊ライブラリの技術調査・検証・選定
   - 設計書の作成・レビュー対応
   - API 開発・コードレビュー対応
   - API の多言語対応（日、 英）
-  - UnitTest の作成（カバレッジ率： 97％)
+  - UnitTest の作成。カバレッジ率： 97％
   - デプロイ・リリース対応
 - **その他：**
   - 開発の 8 割を担当
   - リードエンジニア作業
-  - ニッチな分野の特殊ライブラリのマスタ（oneM2M) 
+  - ニッチな分野の特殊ライブラリのマスター
   - 国プロとしての対応
 :::
 
@@ -290,9 +297,12 @@ Line チャットボットの PoC 開発。
 - **プロジェクト規模：**
   - 10 人チームでのアジャイル開発
 - **使用技術：**
-  - AWS(s3, Cloud Watch, cli), Dialogflow CX(Google)
+  - AWS
+    - s3, Cloud Watch, aws-cli
+  - Google
+    - Dialogflow CX
 - **役割：**
-  - Web アプリケーションの UI・アプリ配信（ios)テストの実施
+  - Web アプリケーションの UI テストと ios アプリへの配信テストを実施
   - ログ分析
   - マニュアルの新規作成
   - テスト仕様書の作成
@@ -333,18 +343,19 @@ Line チャットボットの PoC 開発。
 - **使用技術：**
   - 共通
     - HTML&CSS, JavaScript, jQuery
-  - 業務 Web アプリケーション 1(ビル系）
+  - 業務ビル系 業務 Web アプリケーション
     - Java(Struts, Spring), Uunit, PostgreSQL
-  - 業務 Web アプリケーション 2(工場系）
+  - 工場系 業務 Web アプリケーション
     - Ruby(Ruby on Rails), Rspec, Sidekiq, Angular JS, PostgreSQL, Vagrant, Virtual Box, Docker
-  - 業務アプリケーション 1(ビル系、 薬学系）
+  - 業務ビル系、 薬学系 業務アプリケーション
     - C#(.NET Framework), SQLServer
-  - 業務アプリケーション 2(ビル系）
+  - 業務ビル系 業務アプリケーション
     - C++, VB6, VGA, PostgreSQL
 - **役割：**
   - Web アプリケーションの新規開発・機能追加・バグ修正（フロントエンド、 バックエンド）
   - 要件定義~総合テストの実施
-  - 技術調査（Sidekiq)
+  - 技術調査
+    - Sidekiq, Redis
   - バグ・パケット調査
   - お客さん対応
     - 納品周りのやりとり、質問・要件定義対応、納品 PC の作成
@@ -356,7 +367,7 @@ Line チャットボットの PoC 開発。
 
 ## 意欲・興味
 
-- ユーザの体験がよくなるように意識したプロダクト開発に携わりたいと考えています
-- 業務改善・効率化でのユーザ体験をよくするプロダクト開発にも携わりたいと考えています
-- 新しい技術に対して積極的に検証できる環境を望んでいます
-- 新しい技術に対して積極的に学習し、スキルアップ等を進めています
+- ユーザの体験がよくなるように意識したプロダクト開発に携わりたい
+- 業務改善・効率化でのユーザ体験をよくするプロダクト開発にも携わりたい
+- 新しい技術に対して積極的に検証できる環境を希望
+- 新しい技術に対して積極的に学習し、スキルアップを行う
