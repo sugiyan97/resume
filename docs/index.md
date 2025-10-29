@@ -31,11 +31,11 @@ title: "CV of Yoshiyuki Sugiyama"
 - フロントエンドのリアーキテクチャ
   - 古い技術スタックから最新の技術スタックへの移行
 - バックエンドの負荷改善（k6 等の利用）
-- 社内 2500 名が使う AI チャットボットの構築
-  - RAG
+- 社内 2500 名が使う RAG AI チャットボットの構築
   - フルスクラッチのボット開発からノーコードツールを用いた開発まで対応
 - クラウドを用いた開発
   - AWS, Google Cloud, Azure
+  - 上記を利用したマルチクラウド化
 - 業務改善ツールの作成
 - 非 IT の方への要件提案・納品等対応
 - PHR 領域の知見
@@ -93,27 +93,27 @@ title: "CV of Yoshiyuki Sugiyama"
   - 共通
     - Gin(golang), Docker, Vagrant, Protocol Buffers(gRPC, Twirp), AWS(s3), Fluentd, memcached, Node
     - GoogleCloud(Spanner, Cloud Build, GKE, Redis, MySQL 5.7.26)
-  - ゲーム 1(途中から参画）
+  - ゲーム 1
     - Go 1.16, HTML&CSS, JavaScript, jQuery, Datatables, React
-  - ゲーム 2(新規開発）
+  - ゲーム 2
     - Go 1.22, Protocol Buffers(connect-web), Vue3, TypeScript, Element Plus, Pinia
 - **役割：**
-  - ゲーム 1
+  - ゲーム 1 途中から参画
     - Backend API の新規作成・改修・バグ修正
     - 管理者ツールの機能追加・改修・バグ修正
     - Spanner 負荷対策（Index 設計、クエリ調整、トランザクション分散）
     - Redis キャッシュ設計
     - Twitch プラットフォーム連携対応（Backend API 対応、Twitch Extension 対応）
-    - KPI 設計・実装（Fluent)
+    - KPI 設計・実装
     - コードレビュー対応
-  - ゲーム 2
+  - ゲーム 2 新規開発
     - Backend API の新規作成・改修・バグ修正
     - 管理者ツールのフロントエンド最新技術化・バックエンドとの通信方法に Protocol Buffers を使い Schema の管理を統一
     - 管理者ツールの機能追加・改修・バグ修正（フロントエンド開発・機能追加のリード）
     - Spanner 負荷対策
       - Index 設計、STORING(Index)の活用、クエリ調整、トランザクション分散
     - 負荷試験の実施・結果対応
-    - KPI 設計・実装（Fluent)
+    - KPI 設計・実装
     - コードレビュー対応
 - **その他：**
   - ゲームレベルの DB データのテーブル設計・Index 設計・チューニング
@@ -272,9 +272,10 @@ Personal Health Record(PHR)データの流通を管理する基盤の新規開�
 - **使用技術：**
   - Python 3.8, Flask 2.0.2(Python), nginx, pybael, peewee(Python), Swagger, oneM2M
   - AWS(Lightsail, RDS, EC2), Ubuntu 20.04, MySQL
+  - ライブラリ
+    - oneM2M
 - **役割：**
-  - 技術調査・検証・選定
-    - 特殊ライブラリ: oneM2M
+  - 特殊ライブラリの技術調査・検証・選定
   - 設計書の作成・レビュー対応
   - API 開発・コードレビュー対応
   - API の多言語対応（日、 英）
@@ -283,7 +284,7 @@ Personal Health Record(PHR)データの流通を管理する基盤の新規開�
 - **その他：**
   - 開発の 8 割を担当
   - リードエンジニア作業
-  - ニッチな分野の特殊ライブラリのマスタ: oneM2M
+  - ニッチな分野の特殊ライブラリのマスター
   - 国プロとしての対応
 :::
 
@@ -296,9 +297,12 @@ Line チャットボットの PoC 開発。
 - **プロジェクト規模：**
   - 10 人チームでのアジャイル開発
 - **使用技術：**
-  - AWS(s3, Cloud Watch, cli), Dialogflow CX(Google)
+  - AWS
+    - s3, Cloud Watch, aws-cli
+  - Google
+    - Dialogflow CX
 - **役割：**
-  - Web アプリケーションの UI・iosアプリ配信テストの実施
+  - Web アプリケーションの UI テストと ios アプリへの配信テストを実施
   - ログ分析
   - マニュアルの新規作成
   - テスト仕様書の作成
@@ -363,7 +367,7 @@ Line チャットボットの PoC 開発。
 
 ## 意欲・興味
 
-- ユーザの体験がよくなるように意識したプロダクト開発に携わりたいと考えています
-- 業務改善・効率化でのユーザ体験をよくするプロダクト開発にも携わりたいと考えています
-- 新しい技術に対して積極的に検証できる環境を望んでいます
-- 新しい技術に対して積極的に学習し、スキルアップ等を進めています
+- ユーザの体験がよくなるように意識したプロダクト開発に携わりたい
+- 業務改善・効率化でのユーザ体験をよくするプロダクト開発にも携わりたい
+- 新しい技術に対して積極的に検証できる環境を希望
+- 新しい技術に対して積極的に学習し、スキルアップを行う
