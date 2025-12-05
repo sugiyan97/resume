@@ -12,6 +12,7 @@ title: "CV of Yoshiyuki Sugiyama"
 |氏名|杉山 嘉幸 (Sugiyama Yoshiyuki)|
 |生年月日|1997/06/07|
 |居住地|東京都|
+|ご連絡|ご連絡がある方はXのDM等でご連絡ください|
 
 ---
 
