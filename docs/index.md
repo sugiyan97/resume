@@ -7,11 +7,11 @@ title: "CV of Yoshiyuki Sugiyama"
 
 ## 👤 基本情報
 
-|key|value|
-|---|---|
-|氏名|杉山 嘉幸 (Sugiyama Yoshiyuki)|
-|居住地|東京都|
-|連絡先|[X (Twitter)](https://x.com/sugiyan97_tech) / [GitHub](https://github.com/sugiyan97)|
+| key | value |
+| --- | --- |
+| 氏名 | 杉山 嘉幸 (Sugiyama Yoshiyuki) |
+| 居住地 | 東京都 |
+| 連絡先 | [X (Twitter)](https://x.com/sugiyan97_tech) / [GitHub](https://github.com/sugiyan97) |
 
 
 ## 🎯 Professional Summary
@@ -95,15 +95,15 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 
 #### 言語・フレームワーク
 
-|技術|経験年数|
-|---|---|
-|<img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" /><img alt="Gin" src="https://img.shields.io/badge/Gin-1.x-00C397?style=flat-square&logo=go&logoColor=white" />|**4年**|
-|<img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white" />|**4年**|
-|<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black" />|**7年**|
-|<img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />|**2年**|
-|<img alt="Flask" src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=Flask&logoColor=white" />|**2年**|
-|<img alt="Django" src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white" />|**2年**|
-|<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />|**2年**|
+| 技術 | 経験年数 |
+| --- | --- |
+| <img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" /><img alt="Gin" src="https://img.shields.io/badge/Gin-1.x-00C397?style=flat-square&logo=go&logoColor=white" /> | **4年** |
+| <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white" /> | **4年** |
+| <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black" /> | **7年** |
+| <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /> | **2年** |
+| <img alt="Flask" src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=Flask&logoColor=white" /> | **2年** |
+| <img alt="Django" src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white" /> | **2年** |
+| <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" /> | **2年** |
 
 </div>
 
@@ -111,16 +111,16 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 
 #### インフラ・DB・その他
 
-|技術|経験年数|
-|---|---|
-|<img alt="AWS" src="https://img.shields.io/badge/AWS-%23FF9900?style=flat-square&logo=amazon-aws&logoColor=white" />|**4年**|
-|<img alt="GCP" src="https://img.shields.io/badge/GoogleCloud-%234285F4?style=flat-square&logo=google-cloud&logoColor=white" />|**4年**|
-|<img alt="Azure" src="https://img.shields.io/badge/Azure-%230072C6?style=flat-square&logo=microsoft-azure&logoColor=white" />|**2年**|
-|<img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />|**3年**|
-|<img alt="Redis" src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />|**3年**|
-|<img alt="Terraform" src="https://img.shields.io/badge/Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white" />|**2年**|
-|<img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> |**5年**|
-|<img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" /> |**3年**|
+| 技術 | 経験年数 |
+| --- | --- |
+| <img alt="AWS" src="https://img.shields.io/badge/AWS-%23FF9900?style=flat-square&logo=amazon-aws&logoColor=white" /> | **4年** |
+| <img alt="GCP" src="https://img.shields.io/badge/GoogleCloud-%234285F4?style=flat-square&logo=google-cloud&logoColor=white" /> | **4年** |
+| <img alt="Azure" src="https://img.shields.io/badge/Azure-%230072C6?style=flat-square&logo=microsoft-azure&logoColor=white" /> | **2年** |
+| <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> | **3年** |
+| <img alt="Redis" src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" /> | **3年** |
+| <img alt="Terraform" src="https://img.shields.io/badge/Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white" /> | **2年** |
+| <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> | **5年** |
+| <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" /> | **3年** |
 
 </div>
 </div>
