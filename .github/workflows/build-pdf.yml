@@ -16,26 +16,18 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 9.0.0
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'pnpm'
+          node-version-file: 'package.json'
+          cache: 'yarn'
       - name: Install dependencies
-        run: pnpm install
+        run: yarn install --frozen-lockfile
       - name: Install Japanese fonts
         run: |
           sudo apt-get update
           sudo apt-get install -y fonts-noto-cjk
-      - name: Install Chrome for Puppeteer
-        run: |
-          pnpm add -g @puppeteer/browsers
-          pnpm exec @puppeteer/browsers install chrome@stable
       - name: build pdf
-        run: pnpm run build:pdf
+        run: yarn run build:pdf
       - name: create release
         id: create_release
         uses: actions/create-release@v1.1.4
