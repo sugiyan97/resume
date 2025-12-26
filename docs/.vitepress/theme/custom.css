@@ -1,0 +1,143 @@
+/* テーブルのレイアウト修正 */
+.vp-doc table {
+  display: table;
+  width: auto;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin: 20px 0;
+  table-layout: fixed;
+}
+
+.vp-doc table th,
+.vp-doc table td {
+  border: 1px solid var(--vp-c-divider);
+  padding: 12px 16px;
+  text-align: left;
+  vertical-align: top;
+  word-break: break-word;
+}
+
+.vp-doc table th {
+  background-color: var(--vp-c-bg-soft);
+  font-weight: 600;
+}
+
+/* 画像バッジを含むテーブルセルの調整 */
+.vp-doc table td img {
+  display: inline-block;
+  margin: 2px;
+  vertical-align: middle;
+}
+
+/* テーブル内の画像バッジの改行を防ぐ */
+.vp-doc table td {
+  white-space: nowrap;
+}
+
+/* 技術名のセルは改行を許可 */
+.vp-doc table td:first-child {
+  white-space: normal;
+  width: 150px;
+  max-width: 150px;
+}
+
+/* 基本情報テーブルのkey列をより狭く */
+.vp-doc table th:first-child,
+.vp-doc table td:first-child {
+  width: 120px;
+  max-width: 120px;
+}
+
+/* value列の幅を制限 */
+.vp-doc table th:nth-child(2),
+.vp-doc table td:nth-child(2) {
+  width: 400px;
+  max-width: 400px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* 技術スキルテーブル専用のスタイル */
+.vp-doc div[style*="grid-template-columns"] {
+  gap: 30px !important;
+}
+
+.vp-doc div[style*="grid-template-columns"] table {
+  max-width: 320px;
+  width: 320px;
+  margin: 0 auto 20px auto;
+}
+
+.vp-doc div[style*="grid-template-columns"] table th:first-child,
+.vp-doc div[style*="grid-template-columns"] table td:first-child {
+  width: 220px;
+  max-width: 220px;
+  min-width: 220px;
+}
+
+.vp-doc div[style*="grid-template-columns"] table th:nth-child(2),
+.vp-doc div[style*="grid-template-columns"] table td:nth-child(2) {
+  width: 100px;
+  max-width: 100px;
+  text-align: center;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+  .vp-doc table {
+    font-size: 14px;
+  }
+  
+  .vp-doc table th,
+  .vp-doc table td {
+    padding: 8px 12px;
+  }
+  
+  .vp-doc table td {
+    white-space: normal;
+  }
+  
+  /* モバイルではテーブル全体を調整 */
+  .vp-doc table {
+    max-width: 100%;
+    table-layout: auto;
+  }
+  
+  .vp-doc table th:first-child,
+  .vp-doc table td:first-child {
+    width: 80px;
+    max-width: 80px;
+    font-size: 12px;
+  }
+  
+  .vp-doc table th:nth-child(2),
+  .vp-doc table td:nth-child(2) {
+    width: auto;
+    max-width: none;
+  }
+  
+  /* モバイルでの技術スキルテーブル調整 */
+  .vp-doc div[style*="grid-template-columns"] {
+    gap: 15px !important;
+    grid-template-columns: 1fr !important;
+  }
+  
+  .vp-doc div[style*="grid-template-columns"] table {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 0 15px 0;
+  }
+  
+  .vp-doc div[style*="grid-template-columns"] table th:first-child,
+  .vp-doc div[style*="grid-template-columns"] table td:first-child {
+    width: 180px;
+    max-width: 180px;
+    min-width: 150px;
+  }
+  
+  .vp-doc div[style*="grid-template-columns"] table th:nth-child(2),
+  .vp-doc div[style*="grid-template-columns"] table td:nth-child(2) {
+    width: 80px;
+    max-width: 80px;
+  }
+}
