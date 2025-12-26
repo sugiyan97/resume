@@ -138,7 +138,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 <img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white" />
 </p>
 
-**経験年数**: C#（2 年）, Ruby(1 年), Java(1 年）
+**経験年数**: C#（2 年）, Ruby（1 年), Java（1 年）
 
 </div>
 
@@ -151,7 +151,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 <img alt="jQuery" src="https://img.shields.io/badge/jquery-%230769AD.svg?style=flat-square&logo=jquery&logoColor=white" />
 </p>
 
-**経験年数**: Vue.js（2 年）, React(1 年), jQuery(4 年）
+**経験年数**: Vue.js（2 年）, React（1 年), jQuery（4 年）
 
 </div>
 
@@ -163,7 +163,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 <img alt="Spanner" src="https://img.shields.io/badge/Google%20Spanner-4285F4?style=flat-square&logo=google-cloud&logoColor=white" />
 </p>
 
-**経験年数**: DynamoDB（2 年）, Spanner(4 年）
+**経験年数**: DynamoDB（2 年）, Spanner（4 年）
 
 </div>
 
@@ -177,7 +177,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 <img alt="RAGAS" src="https://img.shields.io/badge/RAGAS-FF6B6B?style=flat-square&logo=python&logoColor=white" />
 </p>
 
-**経験年数**: k6 負荷試験（実績）, Protocol Buffers(4 年), LangChain(2 年), RAGAS(1 年）
+**経験年数**: k6 負荷試験（実績）, Protocol Buffers（4 年), LangChain（2 年）, RAGAS（1 年）
 
 </div>
 
