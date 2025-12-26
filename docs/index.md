@@ -20,12 +20,12 @@ title: "CV of Yoshiyuki Sugiyama"
 
 ### 大規模システムの設計・開発実績
 
-- 2,500名規模のRAG AI システムをPoC〜本番運用まで一貫して担当
+- 2,500 名規模の RAG AI システムを PoC〜本番運用まで一貫して担当
 - 高負荷ゲームサーバー（Spanner/Redis）の性能最適化を主導
 
 ### 最新技術への深い取り組み
 
-- 生成AI/RAGシステムの早期導入・プロダクト化（2023年〜）
+- 生成 AI/RAG システムの早期導入・プロダクト化（2023 年〜）
 - マルチクラウド（AWS/GCP/Azure）での実装経験
 
 ### 技術リーダーシップ
@@ -39,7 +39,7 @@ title: "CV of Yoshiyuki Sugiyama"
 ### 🎯 大規模AIシステム開発
 <div style="border-left: 4px solid #667eea; padding-left: 15px; margin: 10px 0;">
 
-- **社内2,500名利用のRAG AI チャットボット**（Teams連携）
+- **社内2,500名利用のRAG AI チャットボット**（Teams 連携）
 - PoC〜本番運用・精度改善まで一貫して担当
 - **RAGAS評価による精度改善**を実現
 
@@ -138,7 +138,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 <img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white" />
 </p>
 
-**経験年数**: C#(2年), Ruby(1年), Java(1年)
+**経験年数**: C#（2 年）, Ruby(1 年), Java(1 年）
 
 </div>
 
@@ -151,7 +151,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 <img alt="jQuery" src="https://img.shields.io/badge/jquery-%230769AD.svg?style=flat-square&logo=jquery&logoColor=white" />
 </p>
 
-**経験年数**: Vue.js(2年), React(1年), jQuery(4年)
+**経験年数**: Vue.js（2 年）, React(1 年), jQuery(4 年）
 
 </div>
 
@@ -163,7 +163,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 <img alt="Spanner" src="https://img.shields.io/badge/Google%20Spanner-4285F4?style=flat-square&logo=google-cloud&logoColor=white" />
 </p>
 
-**経験年数**: DynamoDB(2年), Spanner(4年)
+**経験年数**: DynamoDB（2 年）, Spanner(4 年）
 
 </div>
 
@@ -177,7 +177,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 <img alt="RAGAS" src="https://img.shields.io/badge/RAGAS-FF6B6B?style=flat-square&logo=python&logoColor=white" />
 </p>
 
-**経験年数**: k6負荷試験(実績), Protocol Buffers(4年), LangChain(2年), RAGAS(1年)
+**経験年数**: k6 負荷試験（実績）, Protocol Buffers(4 年), LangChain(2 年), RAGAS(1 年）
 
 </div>
 
@@ -205,8 +205,8 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 
 **成果**:
 
-- **2,500名規模のRAGシステム**を0から構築・運用
-- **負荷試験により目標性能を達成**（App Runner最適化）
+- **2,500名規模のRAGシステム**を 0 から構築・運用
+- **負荷試験により目標性能を達成**（App Runner 最適化）
 - **RAGAS導入により回答精度を定量的に改善**
 
 **主要技術**: Python, FastAPI, LangChain, AWS Bedrock, Teams Bot, Terraform
@@ -220,7 +220,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 
 - **Clean Architecture導入**によりコード品質向上
 - **Bluetooth連携機能**を新規開発・リリース
-- **UnitTest導入**（カバレッジ97%達成）
+- **UnitTest導入**（カバレッジ 97％達成）
 
 **主要技術**: Go, Gin, MySQL, Clean Architecture
 
