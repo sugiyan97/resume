@@ -5,84 +5,247 @@ title: "CV of Yoshiyuki Sugiyama"
 
 # 職務経歴書
 
-## 基本情報
+## 👤 基本情報
 
 |key|value|
 |---|---|
 |氏名|杉山 嘉幸 (Sugiyama Yoshiyuki)|
-|生年月日|1997/06/07|
 |居住地|東京都|
-|ご連絡|ご連絡があるかたはXのDM等でご連絡ください|
+|連絡先|[X (Twitter)](https://x.com/sugiyan97_tech) / [GitHub](https://github.com/sugiyan97)|
 
----
 
-## 各種アカウント
+## 🎯 Professional Summary
 
-<p style="display: flex; gap: 8px; flex-wrap: wrap;">
-  <a href="https://github.com/sugiyan97" target="_blank"><img alt="Github" src="https://img.shields.io/badge/sugiyan97-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white" /></a>
-  <a href="https://x.com/sugiyan97_tech" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/@sugiyan97-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white" /></a>
+**Backend/Full-Stack Engineer | 7+ years experience**
+
+### 大規模システムの設計・開発実績
+
+- 2,500 名規模の RAG AI システムを PoC〜本番運用まで一貫して担当
+- 高負荷ゲームサーバー（Spanner/Redis）の性能最適化を主導
+
+### 最新技術への深い取り組み
+
+- 生成 AI/RAG システムの早期導入・プロダクト化（2023 年〜）
+- マルチクラウド（AWS/GCP/Azure）での実装経験
+
+### 技術リーダーシップ
+
+- チーム技術選定・アーキテクチャ設計を主導
+- 既存システムのリアーキテクチャ・性能改善を複数プロジェクトで実現
+
+
+## 🏆 主要実績・成果
+
+### 🎯 大規模AIシステム開発
+<div style="border-left: 4px solid #667eea; padding-left: 15px; margin: 10px 0;">
+
+- **社内2,500名利用のRAG AI チャットボット**（Teams 連携）
+- PoC〜本番運用・精度改善まで一貫して担当
+- **RAGAS評価による精度改善**を実現
+
+</div>
+
+### 🚀 高負荷システム最適化
+<div style="border-left: 4px solid #f5576c; padding-left: 15px; margin: 10px 0;">
+
+- **ゲームサーバーのSpanner負荷対策**を主導
+- **Redis キャッシュ設計**による性能向上
+- **k6負荷試験**による目標値達成
+
+</div>
+
+### 🔧 技術リーダーシップ
+<div style="border-left: 4px solid #4facfe; padding-left: 15px; margin: 10px 0;">
+
+- 複数プロジェクトで**アーキテクチャ設計を主導**
+- チームメンバーの**マネジメント・技術支援**
+- **レガシーシステムの技術刷新**を推進
+
+</div>
+
+
+## 💻 技術スキル
+
+### 🎯 専門領域
+
+<div style="display: grid; gap: 10px; margin: 15px 0;">
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 15px; border-radius: 8px; color: white;">
+<strong>🤖 RAG/生成AI</strong><br>
+LangChain, AWS Bedrock, RAGAS評価, Teams Bot開発
+</div>
+
+<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 15px; border-radius: 8px; color: white;">
+<strong>🚀 高負荷Backend</strong><br>
+Go/Gin, Spanner最適化, Redis設計, gRPC
+</div>
+
+<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 15px; border-radius: 8px; color: white;">
+<strong>☁️ クラウドアーキテクチャ</strong><br>
+AWS/GCP/Azure マルチクラウド, Terraform, Docker
+</div>
+
+</div>
+
+### 💪 主要技術（業務経験3年+）
+
+<div style="display: grid; gap: 15px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+
+<div>
+
+#### 言語・フレームワーク
+
+|技術|経験年数|
+|---|---|
+|<img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" /><img alt="Gin" src="https://img.shields.io/badge/Gin-1.x-00C397?style=flat-square&logo=go&logoColor=white" />|**4年**|
+|<img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white" />|**4年**|
+|<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black" />|**7年**|
+|<img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />|**2年**|
+|<img alt="Flask" src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=Flask&logoColor=white" />|**2年**|
+|<img alt="Django" src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white" />|**2年**|
+|<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />|**2年**|
+
+</div>
+
+<div>
+
+#### インフラ・DB・その他
+
+|技術|経験年数|
+|---|---|
+|<img alt="AWS" src="https://img.shields.io/badge/AWS-%23FF9900?style=flat-square&logo=amazon-aws&logoColor=white" />|**4年**|
+|<img alt="GCP" src="https://img.shields.io/badge/GoogleCloud-%234285F4?style=flat-square&logo=google-cloud&logoColor=white" />|**4年**|
+|<img alt="Azure" src="https://img.shields.io/badge/Azure-%230072C6?style=flat-square&logo=microsoft-azure&logoColor=white" />|**2年**|
+|<img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />|**3年**|
+|<img alt="Redis" src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />|**3年**|
+|<img alt="Terraform" src="https://img.shields.io/badge/Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white" />|**2年**|
+|<img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> |**5年**|
+|<img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" /> |**3年**|
+
+</div>
+</div>
+
+### 📚 その他経験技術
+
+<div style="display: grid; gap: 15px; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+
+<div>
+
+#### 💻 言語
+<p style="display: flex; gap: 5px; flex-wrap: wrap; margin: 10px 0;">
+<img alt="C#" src="https://img.shields.io/badge/c%23-%23239120.svg?style=flat-square&logo=c-sharp&logoColor=white" />
+<img alt="Ruby" src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=flat-square&logo=ruby&logoColor=white" />
+<img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white" />
 </p>
 
----
-
-## 保有スキル
-
-- Web アプリケーションの要件定義・設計・開発・運用（フロントエンド・バックエンド）
-- 大規模アクセスに対応できる API 開発（gRPC 等）
-- フロントエンドのリアーキテクチャ
-  - 古い技術スタックから最新の技術スタックへの移行
-- バックエンドの負荷改善（k6 等の利用）
-- 社内 2500 名が使う RAG AI チャットボットの構築
-  - フルスクラッチのボット開発からノーコードツールを用いた開発まで対応
-- クラウドを用いた開発
-  - AWS, Google Cloud, Azure
-  - 上記を利用したマルチクラウド化
-- 業務改善ツールの作成
-- 非 IT の方への要件提案・納品等対応
-- PHR 領域の知見
-
-
----
-
-## 技術スタック
-
-<div style="display: grid; gap: 15px; grid-col; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
-
-<div>
-
-|言語|業務経験|
-|---|---|
-|<img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />|7 年|
-|<img alt="Go" src="https://img.shields.io/badge/golang-00ADD8?&style=flat-square&lastic&logo=go&logoColor=white" />|4 年|
-|<img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white" />|4 年|
-|<img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />|2 年|
-|<img alt="C#" src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=unity&logoColor=white" />|2 年|
-|<img alt="Ruby" src="https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=Ruby&logoColor=white" />|1 年|
-|<img alt="Java" src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=Java&logoColor=white" />|1 年|
+**経験年数**: C#（2 年）, Ruby（1 年), Java（1 年）
 
 </div>
 
 <div>
 
-|フレームワーク|業務経験|
-|---|---|
-|<img alt="Gin" src="https://img.shields.io/badge/Gin-1.x-00C397?style=flat-square&logo=go&logoColor=white" />|4 年|
-|<img alt="Vue" src="https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white" />|2 年|
-|<img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" />|2 年|
-|<img alt="Flask" src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white" />|2 年|
-|<img alt="Django" src="https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=Django&logoColor=white" />|2 年|
-|<img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />|1 年|
-|<img alt="Ruby-on-Rails" src="https://img.shields.io/badge/-Rails-CC0000?style=flat-square&logo=Ruby-on-Rails&logoColor=white" />|1 年|
+#### 🎨 Frontend
+<p style="display: flex; gap: 5px; flex-wrap: wrap; margin: 10px 0;">
+<img alt="Vue.js" src="https://img.shields.io/badge/vuejs-%2335495e.svg?style=flat-square&logo=vuedotjs&logoColor=%234FC08D" />
+<img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB" />
+<img alt="jQuery" src="https://img.shields.io/badge/jquery-%230769AD.svg?style=flat-square&logo=jquery&logoColor=white" />
+</p>
+
+**経験年数**: Vue.js（2 年）, React（1 年), jQuery（4 年）
 
 </div>
+
+<div>
+
+#### 🗄️ Database
+<p style="display: flex; gap: 5px; flex-wrap: wrap; margin: 10px 0;">
+<img alt="DynamoDB" src="https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=flat-square&logo=Amazon%20DynamoDB&logoColor=white" />
+<img alt="Spanner" src="https://img.shields.io/badge/Google%20Spanner-4285F4?style=flat-square&logo=google-cloud&logoColor=white" />
+</p>
+
+**経験年数**: DynamoDB（2 年）, Spanner（4 年）
+
 </div>
 
----
+<div>
 
-## 職務経歴詳細
+#### 🛠️ その他ツール
+<p style="display: flex; gap: 5px; flex-wrap: wrap; margin: 10px 0;">
+<img alt="k6" src="https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white" />
+<img alt="Protocol Buffers" src="https://img.shields.io/badge/Protocol%20Buffers-02569B?style=flat-square&logo=google&logoColor=white" />
+<img alt="LangChain" src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+<img alt="RAGAS" src="https://img.shields.io/badge/RAGAS-FF6B6B?style=flat-square&logo=python&logoColor=white" />
+</p>
 
-:::details 2022/04〜現在      コンシューマーゲームのサーバサイド開発全般（業務委託）{open}
+**経験年数**: k6 負荷試験（実績）, Protocol Buffers（4 年), LangChain（2 年）, RAGAS（1 年）
 
+</div>
+
+</div>
+
+## 📋 職務経歴（概要）
+
+### 2022/04〜現在 | コンシューマーゲーム Backend開発（業務委託）
+<img alt="Status" src="https://img.shields.io/badge/Status-Current-brightgreen?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Tech%20Lead-blue?style=flat-square" />
+
+**役割**: Backend Engineer / Tech Lead
+
+**成果**:
+
+- **Spanner負荷問題を解決**し、サービス安定性を向上
+- **新規タイトル立ち上げ**を技術面でリード
+- **管理者ツールの最新技術化**（React → Vue3/TypeScript）を推進
+
+**主要技術**: Go, Gin, Spanner, Redis, GKE, Protocol Buffers
+
+### 2023/11〜2025/07 | 社内AI チャットボット開発（業務委託・副業）
+<img alt="Status" src="https://img.shields.io/badge/Status-Completed-success?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Lead%20Engineer-purple?style=flat-square" /> <img alt="Scale" src="https://img.shields.io/badge/Scale-2500%20Users-orange?style=flat-square" />
+
+**役割**: Lead Engineer
+
+**成果**:
+
+- **2,500名規模のRAGシステム**を 0 から構築・運用
+- **負荷試験により目標性能を達成**（App Runner 最適化）
+- **RAGAS導入により回答精度を定量的に改善**
+
+**主要技術**: Python, FastAPI, LangChain, AWS Bedrock, Teams Bot, Terraform
+
+### 2023/01〜2023/07 | 医療系PHRアプリ開発（業務委託・副業）
+<img alt="Status" src="https://img.shields.io/badge/Status-Completed-success?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Backend%20Engineer-green?style=flat-square" />
+
+**役割**: Backend Engineer
+
+**成果**:
+
+- **Clean Architecture導入**によりコード品質向上
+- **Bluetooth連携機能**を新規開発・リリース
+- **UnitTest導入**（カバレッジ 97％達成）
+
+**主要技術**: Go, Gin, MySQL, Clean Architecture
+
+### 2018/08〜2022/03 | PHR流通基盤の開発（業務委託）
+<img alt="Status" src="https://img.shields.io/badge/Status-Completed-success?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Lead%20Engineer-purple?style=flat-square" /> <img alt="Coverage" src="https://img.shields.io/badge/Test%20Coverage-97%25-brightgreen?style=flat-square" />
+
+**役割**: Lead Engineer
+
+**成果**:
+
+- **特殊ライブラリ（oneM2M）をマスター**し、国プロ要件を満たすシステムを構築
+- **開発の8割を担当**し、プロジェクトを成功に導く
+- **多言語対応**（日英）を実装
+
+**主要技術**: Python, Flask, oneM2M, AWS
+
+
+## 📋 職務経歴詳細
+
+:::details 2022/04〜現在 コンシューマーゲームのサーバサイド開発全般（業務委託）{open}
+
+**概要**
+- コンシューマーゲームの Backend / 管理者ツール開発
+- 高負荷 API・Spanner / Redis の設計・最適化
+- 新規タイトル立ち上げ〜運用まで対応
 
 コンシューマーゲームのサーバサイド開発全般。  
 管理者・デバッグ・運用支援ツールの開発全般。  
@@ -104,30 +267,30 @@ title: "CV of Yoshiyuki Sugiyama"
     - 管理者ツールの機能追加・改修・バグ修正
     - Spanner 負荷対策（Index 設計、クエリ調整、トランザクション分散）
     - Redis キャッシュ設計
-    - Twitch プラットフォーム連携対応（Backend API 対応、Twitch Extension 対応）
+    - Twitch プラットフォーム連携対応
     - KPI 設計・実装
     - コードレビュー対応
   - ゲーム 2 新規開発
     - Backend API の新規作成・改修・バグ修正
-    - 管理者ツールのフロントエンド最新技術化・バックエンドとの通信方法に Protocol Buffers を使い Schema の管理を統一
-    - 管理者ツールの機能追加・改修・バグ修正（フロントエンド開発・機能追加のリード）
-    - Spanner 負荷対策
-      - Index 設計、STORING(Index)の活用、クエリ調整、トランザクション分散
-    - 負荷試験の実施・結果対応
+    - 管理者ツールのフロントエンド最新技術化
+    - Spanner 負荷対策（STORING Index 活用）
+    - 負荷試験の実施・対応
     - KPI 設計・実装
     - コードレビュー対応
 - **その他：**
-  - ゲームレベルの DB データのテーブル設計・Index 設計・チューニング
   - 管理者ツールの技術移行
   - API の高負荷対応
-  - API の処理負荷対応
 :::
 
+:::details 2023/11〜2025/07 社内ナレッジ参照の AI チャットアプリ開発（業務委託：副業）{close}
 
-:::details 2023/11〜2025/07      社内ナレッジ参照の AI チャットアプリ開発（業務委託： 副業）{close}
+**概要**
+- 社内 2,500 名が利用する RAG AI TeamsBot
+- PoC〜本番運用・精度改善まで一貫して担当
+- AWS / Azure マルチクラウド構成
 
 RAG を用いた社内ナレッジ参照の生成 AI TeamsBot の開発。
-利用ユーザは 2500 名。
+
 
 - **プロジェクト規模：**
   - 2〜5 人チームでのアジャイル開発
@@ -366,9 +529,18 @@ Line チャットボットの PoC 開発。
   - 顧客折衝対応
 :::
 
-## 意欲・興味
+## 🎯 意欲・興味
 
-- ユーザの体験がよくなるように意識したプロダクト開発に携わりたい
-- 業務改善・効率化でのユーザ体験をよくするプロダクト開発にも携わりたい
-- 新しい技術に対して積極的に検証できる環境を希望
-- 新しい技術に対して積極的に学習し、スキルアップを行う
+- **ユーザ体験を重視したプロダクト開発**に携わりたい
+- **業務改善・効率化**でのユーザ体験を向上させるプロダクト開発
+- **新技術の検証・学習**を継続できる環境を希望
+- **技術リーダーシップ**を発揮し、チームの技術力向上に貢献したい
+
+## 📞 連絡先
+
+<p style="display: flex; gap: 8px; flex-wrap: wrap;">
+  <a href="https://github.com/sugiyan97" target="_blank"><img alt="Github" src="https://img.shields.io/badge/sugiyan97-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white" /></a>
+  <a href="https://x.com/sugiyan97_tech" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/@sugiyan97-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white" /></a>
+</p>
+
+**お気軽にX(Twitter)のDMでご連絡ください**
