@@ -17,9 +17,6 @@ importers:
       md-to-pdf:
         specifier: ^5.2.5
         version: 5.2.5
-      puppeteer:
-        specifier: ^23.0.0
-        version: 23.11.1
       textlint:
         specifier: ^15.5.0
         version: 15.5.0(hono@4.11.3)
