@@ -13,10 +13,9 @@ title: "CV of Yoshiyuki Sugiyama"
 | 居住地 | 東京都 |
 | 連絡先 | [X (Twitter)](https://x.com/sugiyan97_tech) / [GitHub](https://github.com/sugiyan97) |
 
-
 ## 🎯 Professional Summary
 
-**Backend/Full-Stack Engineer | 7+ years experience**
+**Backend/Full-Stack Engineer | 8+ years experience**
 
 ### 大規模システムの設計・開発実績
 
@@ -32,7 +31,6 @@ title: "CV of Yoshiyuki Sugiyama"
 
 - チーム技術選定・アーキテクチャ設計を主導
 - 既存システムのリアーキテクチャ・性能改善を複数プロジェクトで実現
-
 
 ## 🏆 主要実績・成果
 
@@ -62,7 +60,6 @@ title: "CV of Yoshiyuki Sugiyama"
 - **レガシーシステムの技術刷新**を推進
 
 </div>
-
 
 ## 💻 技術スキル
 
@@ -219,12 +216,12 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 **成果**:
 
 - **Clean Architecture導入**によりコード品質向上
-- **Bluetooth連携機能**を新規開発・リリース
+- **Bluetooth連携アプリ追加**を対応・リリース
 - **UnitTest導入**（カバレッジ 97％達成）
 
 **主要技術**: Go, Gin, MySQL, Clean Architecture
 
-### 2018/08〜2022/03 | PHR流通基盤の開発（業務委託）
+### 2021/08〜2022/03 | PHR流通基盤の開発（業務委託）
 <img alt="Status" src="https://img.shields.io/badge/Status-Completed-success?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Lead%20Engineer-purple?style=flat-square" /> <img alt="Coverage" src="https://img.shields.io/badge/Test%20Coverage-97%25-brightgreen?style=flat-square" />
 
 **役割**: Lead Engineer
@@ -232,7 +229,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 **成果**:
 
 - **特殊ライブラリ（oneM2M）をマスター**し、国プロ要件を満たすシステムを構築
-- **開発の8割を担当**し、プロジェクトを成功に導く
+- **開発の8割を担当**し、プロジェクトをリード
 - **多言語対応**（日英）を実装
 
 **主要技術**: Python, Flask, oneM2M, AWS
@@ -299,7 +296,7 @@ RAG を用いた社内ナレッジ参照の生成 AI TeamsBot の開発。
     - Python 3.11, AWS(S3, Kendra, Bedrock, Lambda), Docker
   - PoC フェーズ
     - PoC 版
-      -  AWS（sam, API Gateway）, Copilot Studio（旧 Power Virtual Agents）
+      - AWS（sam, API Gateway）, Copilot Studio（旧 Power Virtual Agents）
     - α版
       - FastAPI, AWS(WAF, SSM, App Runner, ECS, Code Commit), Terraform
     - β版
@@ -425,8 +422,7 @@ LP からの注文受付システムの決済機能追加。
   - クレジットカード決済連携
 :::
 
-
-:::details 2013/08〜2022/03      PHR 流通基盤の開発（業務委託）{close}
+:::details 2021/08〜2022/03      PHR 流通基盤の開発（業務委託）{close}
 
 Personal Health Record(PHR)データの流通を管理する基盤の新規開発。  
 途中よりリードエンジニアとして技術部分のリード作業。
@@ -456,7 +452,6 @@ Personal Health Record(PHR)データの流通を管理する基盤の新規開�
 
 メッセージ配信・最適化ソリューションの配信テスト支援。  
 Line チャットボットの PoC 開発。
-
 
 - **プロジェクト規模：**
   - 10 人チームでのアジャイル開発
