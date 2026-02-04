@@ -69,12 +69,12 @@ title: "CV of Yoshiyuki Sugiyama"
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 15px; border-radius: 8px; color: white;">
 <strong>🤖 RAG/生成AI</strong><br>
-LangChain, AWS Bedrock, RAGAS評価, Teams Bot開発
+LangChain, AWS Bedrock, RAGAS評価
 </div>
 
 <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 15px; border-radius: 8px; color: white;">
 <strong>🚀 高負荷Backend</strong><br>
-Go/Gin, Spanner最適化, Redis設計, gRPC
+Go/Gin, gRPC, API最適化, Spanner最適化, Redis設計
 </div>
 
 <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 15px; border-radius: 8px; color: white;">
@@ -241,7 +241,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 
 **概要**
 - Amazon Quick Suite に構築されたトピックでの AI の回答精度改善
-- Amazon Quick Suite のトピックでのデータ可視化対応（データ設計~ETL構築~可視化構築）
+- Amazon Quick Suite のトピックでのデータ可視化対応（データ設計, DWH/ETL構築, 可視化構築）
 - Quick Sight でのダッシュボード作成のための設計・インフラ構築
 
 AWS 上でのデータ可視化に伴う設計・開発全般。  
