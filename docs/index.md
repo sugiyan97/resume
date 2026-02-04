@@ -241,7 +241,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 
 **概要**
 - Amazon Quick Suite に構築されたトピックでの AI の回答精度改善
-- Amazon Quick Suite のトピックでのデータ可視化対応（データ設計, DWH/ETL構築, 可視化構築）
+- Amazon Quick Suite のトピックでのデータ可視化対応（データ設計、 DWH/ETL 構築、 可視化構築）
 - Quick Sight でのダッシュボード作成のための設計・インフラ構築
 
 AWS 上でのデータ可視化に伴う設計・開発全般。  
