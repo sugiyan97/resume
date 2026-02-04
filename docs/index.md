@@ -20,7 +20,7 @@ title: "CV of Yoshiyuki Sugiyama"
 ### 大規模システムの設計・開発実績
 
 - 2,500 名規模の RAG AI システムを PoC〜本番運用まで一貫して担当
-- 高負荷ゲームサーバー（Spanner/Redis）の性能最適化を主導
+- 高負荷ゲームサーバー（Spanner/Redis）の性能最適化・API リファクタを担当
 
 ### 最新技術への深い取り組み
 
@@ -69,12 +69,12 @@ title: "CV of Yoshiyuki Sugiyama"
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 15px; border-radius: 8px; color: white;">
 <strong>🤖 RAG/生成AI</strong><br>
-LangChain, AWS Bedrock, RAGAS評価, Teams Bot開発
+LangChain, AWS Bedrock, RAGAS評価
 </div>
 
 <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 15px; border-radius: 8px; color: white;">
 <strong>🚀 高負荷Backend</strong><br>
-Go/Gin, Spanner最適化, Redis設計, gRPC
+Go/Gin, gRPC, API最適化, Spanner最適化, Redis設計
 </div>
 
 <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 15px; border-radius: 8px; color: white;">
@@ -113,10 +113,10 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 | <img alt="AWS" src="https://img.shields.io/badge/AWS-%23FF9900?style=flat-square&logo=amazon-aws&logoColor=white" /> | **4年** |
 | <img alt="GCP" src="https://img.shields.io/badge/GoogleCloud-%234285F4?style=flat-square&logo=google-cloud&logoColor=white" /> | **4年** |
 | <img alt="Azure" src="https://img.shields.io/badge/Azure-%230072C6?style=flat-square&logo=microsoft-azure&logoColor=white" /> | **2年** |
-| <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> | **3年** |
-| <img alt="Redis" src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" /> | **3年** |
+| <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> | **4年** |
+| <img alt="Redis" src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" /> | **4年** |
 | <img alt="Terraform" src="https://img.shields.io/badge/Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white" /> | **2年** |
-| <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> | **5年** |
+| <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> | **4年** |
 | <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" /> | **3年** |
 
 </div>
@@ -148,7 +148,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 <img alt="jQuery" src="https://img.shields.io/badge/jquery-%230769AD.svg?style=flat-square&logo=jquery&logoColor=white" />
 </p>
 
-**経験年数**: Vue.js（2 年）, React（1 年), jQuery（4 年）
+**経験年数**: Vue.js（2 年）, React（2 年）, jQuery（4 年）
 
 </div>
 
@@ -174,7 +174,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 <img alt="RAGAS" src="https://img.shields.io/badge/RAGAS-FF6B6B?style=flat-square&logo=python&logoColor=white" />
 </p>
 
-**経験年数**: k6 負荷試験（実績）, Protocol Buffers（4 年), LangChain（2 年）, RAGAS（1 年）
+**経験年数**: k6 負荷試験（実績）, Protocol Buffers（4 年）, LangChain（2 年）, RAGAS（1 年）
 
 </div>
 
@@ -183,22 +183,22 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 ## 📋 職務経歴（概要）
 
 ### 2022/04〜現在 | コンシューマーゲーム Backend開発（業務委託）
-<img alt="Status" src="https://img.shields.io/badge/Status-Current-brightgreen?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Tech%20Lead-blue?style=flat-square" />
+<img alt="Status" src="https://img.shields.io/badge/Status-Current-brightgreen?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Backend%20Engineer-green?style=flat-square" />
 
-**役割**: Backend Engineer / Tech Lead
+**役割**: Backend Engineer / Lead Engineer
 
 **成果**:
 
 - **Spanner負荷問題を解決**し、サービス安定性を向上
-- **新規タイトル立ち上げ**を技術面でリード
+- **新規タイトル立ち上げ**を技術面でサポート
 - **管理者ツールの最新技術化**（React → Vue3/TypeScript）を推進
 
-**主要技術**: Go, Gin, Spanner, Redis, GKE, Protocol Buffers
+**主要技術**: Go, Gin, Spanner, Redis, GKE, Protocol Buffers(gRPC, Twirp, connect-web)
 
 ### 2023/11〜2025/07 | 社内AI チャットボット開発（業務委託・副業）
 <img alt="Status" src="https://img.shields.io/badge/Status-Completed-success?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Lead%20Engineer-purple?style=flat-square" /> <img alt="Scale" src="https://img.shields.io/badge/Scale-2500%20Users-orange?style=flat-square" />
 
-**役割**: Lead Engineer
+**役割**: FullStack Engineer / Lead Engineer
 
 **成果**:
 
@@ -206,7 +206,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 - **負荷試験により目標性能を達成**（App Runner 最適化）
 - **RAGAS導入により回答精度を定量的に改善**
 
-**主要技術**: Python, FastAPI, LangChain, AWS Bedrock, Teams Bot, Terraform
+**主要技術**: Python, FastAPI, TypeScript, LangChain, AWS Bedrock, Azure, Teams Bot, Terraform
 
 ### 2023/01〜2023/07 | 医療系PHRアプリ開発（業務委託・副業）
 <img alt="Status" src="https://img.shields.io/badge/Status-Completed-success?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Backend%20Engineer-green?style=flat-square" />
@@ -215,7 +215,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 
 **成果**:
 
-- **Clean Architecture導入**によりコード品質向上
+- **Clean Architecture**によりコード品質向上
 - **Bluetooth連携アプリ追加**を対応・リリース
 - **UnitTest導入**（カバレッジ 97％達成）
 
@@ -237,10 +237,39 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 
 ## 📋 職務経歴詳細
 
-:::details 2022/04〜現在 コンシューマーゲームのサーバサイド開発全般（業務委託）{open}
+:::details 2025/11〜現在 AWS 上でデータ可視化・インフラ構築・推進（業務委託）{open}
 
 **概要**
-- コンシューマーゲームの Backend / 管理者ツール開発
+- Amazon Quick Suite に構築されたトピックでの AI の回答精度改善
+- Amazon Quick Suite のトピックでのデータ可視化対応（データ設計、 DWH/ETL 構築、 可視化構築）
+- Quick Sight でのダッシュボード作成のための設計・インフラ構築
+
+AWS 上でのデータ可視化に伴う設計・開発全般。  
+
+- **プロジェクト規模：**
+  - 3 人チームでのアジャイル開発
+- **使用技術：**
+  - AWS（s3, KMS, Glue, StepFunctions, Athena, Quick Suite）
+- **役割：**
+  - Amazon Quick Suite のトピックでの AI による回答精度改善
+    - メタ情報の拡充
+    - Custom Instructions の拡充
+    - サジェスチョンを追加し、ユーザによる質問精度の向上
+  - データレベルの設計（P マーク取得準拠）
+  - 可視化時利用データ設計
+  - s3 バケット設計
+  - DWH/ETL インフラ設計・構築
+  - Athena View 設計
+  - Amazon Quick Suite のトピック作成による可視化
+- **その他：**
+  - 可視化に伴う推奨提案
+:::
+
+:::details 2022/04〜現在 コンシューマーゲームのサーバサイド開発全般（業務委託）{open}
+
+
+**概要**
+- コンシューマーゲームの Backend / 管理者ツール開発（Web アプリケーション）
 - 高負荷 API・Spanner / Redis の設計・最適化
 - 新規タイトル立ち上げ〜運用まで対応
 
@@ -259,7 +288,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
   - ゲーム 2
     - Go 1.22, Protocol Buffers(connect-web), Vue3, TypeScript, Element Plus, Pinia
 - **役割：**
-  - ゲーム 1 途中から参画
+  - ゲーム 1（途中から参画）
     - Backend API の新規作成・改修・バグ修正
     - 管理者ツールの機能追加・改修・バグ修正
     - Spanner 負荷対策（Index 設計、クエリ調整、トランザクション分散）
@@ -267,16 +296,22 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
     - Twitch プラットフォーム連携対応
     - KPI 設計・実装
     - コードレビュー対応
-  - ゲーム 2 新規開発
+  - ゲーム 2（新規開発）
     - Backend API の新規作成・改修・バグ修正
     - 管理者ツールのフロントエンド最新技術化
     - Spanner 負荷対策（STORING Index 活用）
     - 負荷試験の実施・対応
     - KPI 設計・実装
     - コードレビュー対応
+    - Redis に Hash を導入して Key 数の削減
 - **その他：**
   - 管理者ツールの技術移行
   - API の高負荷対応
+  - nvm の導入
+  - node とライブラリのバージョンアップ対応
+  - ESLint のルール整備
+  - FlatConfig への移行
+  - go ライブラリのアーカイブに伴う移行（goccy/go-json, GitHub/pkg/errors 等）
 :::
 
 :::details 2023/11〜2025/07 社内ナレッジ参照の AI チャットアプリ開発（業務委託：副業）{close}
