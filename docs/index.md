@@ -237,7 +237,36 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 
 ## 📋 職務経歴詳細
 
+:::details 2025/11〜現在 AWS上でデータ可視化・インフラ構築・推進（業務委託）{open}
+
+**概要**
+- Amazon Quick Suite に構築されたトピックでのAIの回答精度改善
+- Amazon Quick Suite のトピックでのデータ可視化対応（データ設計~ETL構築~可視化構築）
+- Quick Sight でのダッシュボード作成のための設計・インフラ構築
+
+AWS上でのデータ可視化に伴う設計・開発全般。  
+
+- **プロジェクト規模：**
+  - 3 人チームでのアジャイル開発
+- **使用技術：**
+  - AWS（s3, KMS, Glue, StepFunctions, Athena, Quick Suite）
+- **役割：**
+  - Amazon Quick Suite のトピックでの AI による回答精度改善
+    - メタ情報の拡充
+    - Custom Instructions の拡充
+    - サジェスチョンを追加し、ユーザによる質問精度の向上
+  - データレベルの設計（Pマーク取得準拠）
+  - 可視化時利用データ設計
+  - s3 バケット設計
+  - DWH/ETL インフラ設計・構築
+  - Athena View 設計
+  - Amazon Quick Suite のトピック作成による可視化
+- **その他：**
+  - 可視化に伴う推奨提案
+:::
+
 :::details 2022/04〜現在 コンシューマーゲームのサーバサイド開発全般（業務委託）{open}
+
 
 **概要**
 - コンシューマーゲームの Backend / 管理者ツール開発(Webアプリケーション)
