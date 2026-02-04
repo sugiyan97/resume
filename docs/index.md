@@ -190,15 +190,15 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 **成果**:
 
 - **Spanner負荷問題を解決**し、サービス安定性を向上
-- **新規タイトル立ち上げ**を技術面でリード
+- **新規タイトル立ち上げ**を技術面でサポート
 - **管理者ツールの最新技術化**（React → Vue3/TypeScript）を推進
 
-**主要技術**: Go, Gin, Spanner, Redis, GKE, Protocol Buffers
+**主要技術**: Go, Gin, Spanner, Redis, GKE, Protocol Buffers(gRPC, Twirp, connect-web)
 
 ### 2023/11〜2025/07 | 社内AI チャットボット開発（業務委託・副業）
 <img alt="Status" src="https://img.shields.io/badge/Status-Completed-success?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Lead%20Engineer-purple?style=flat-square" /> <img alt="Scale" src="https://img.shields.io/badge/Scale-2500%20Users-orange?style=flat-square" />
 
-**役割**: Lead Engineer
+**役割**: FullStack Engineer / Lead Engineer
 
 **成果**:
 
@@ -206,7 +206,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 - **負荷試験により目標性能を達成**（App Runner 最適化）
 - **RAGAS導入により回答精度を定量的に改善**
 
-**主要技術**: Python, FastAPI, LangChain, AWS Bedrock, Teams Bot, Terraform
+**主要技術**: Python, FastAPI, TypeScript, LangChain, AWS Bedrock, Azure, Teams Bot, Terraform
 
 ### 2023/01〜2023/07 | 医療系PHRアプリ開発（業務委託・副業）
 <img alt="Status" src="https://img.shields.io/badge/Status-Completed-success?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Backend%20Engineer-green?style=flat-square" />
@@ -215,7 +215,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 
 **成果**:
 
-- **Clean Architecture導入**によりコード品質向上
+- **Clean Architecture**によりコード品質向上
 - **Bluetooth連携アプリ追加**を対応・リリース
 - **UnitTest導入**（カバレッジ 97％達成）
 
@@ -240,7 +240,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 :::details 2022/04〜現在 コンシューマーゲームのサーバサイド開発全般（業務委託）{open}
 
 **概要**
-- コンシューマーゲームの Backend / 管理者ツール開発
+- コンシューマーゲームの Backend / 管理者ツール開発(Webアプリケーション)
 - 高負荷 API・Spanner / Redis の設計・最適化
 - 新規タイトル立ち上げ〜運用まで対応
 
@@ -259,7 +259,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
   - ゲーム 2
     - Go 1.22, Protocol Buffers(connect-web), Vue3, TypeScript, Element Plus, Pinia
 - **役割：**
-  - ゲーム 1 途中から参画
+  - ゲーム 1 （途中から参画）
     - Backend API の新規作成・改修・バグ修正
     - 管理者ツールの機能追加・改修・バグ修正
     - Spanner 負荷対策（Index 設計、クエリ調整、トランザクション分散）
@@ -267,16 +267,22 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
     - Twitch プラットフォーム連携対応
     - KPI 設計・実装
     - コードレビュー対応
-  - ゲーム 2 新規開発
+  - ゲーム 2 （新規開発）
     - Backend API の新規作成・改修・バグ修正
     - 管理者ツールのフロントエンド最新技術化
     - Spanner 負荷対策（STORING Index 活用）
     - 負荷試験の実施・対応
     - KPI 設計・実装
     - コードレビュー対応
+    - Redis に Hash を導入して Key 数の削減
 - **その他：**
   - 管理者ツールの技術移行
   - API の高負荷対応
+  - nvm の導入
+  - node とライブラリのバージョンアップ対応
+  - ESLint のルール整備
+  - FlatConfig への移行
+  - go ライブラリのアーカイブに伴う移行(goccy/go-json, github/pkg/errors 等)
 :::
 
 :::details 2023/11〜2025/07 社内ナレッジ参照の AI チャットアプリ開発（業務委託：副業）{close}
