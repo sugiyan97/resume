@@ -20,7 +20,7 @@ title: "CV of Yoshiyuki Sugiyama"
 ### 大規模システムの設計・開発実績
 
 - 2,500 名規模の RAG AI システムを PoC〜本番運用まで一貫して担当
-- 高負荷ゲームサーバー（Spanner/Redis）の性能最適化を主導
+- 高負荷ゲームサーバー（Spanner/Redis）の性能最適化・APIリファクタを担当
 
 ### 最新技術への深い取り組み
 
@@ -113,10 +113,10 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 | <img alt="AWS" src="https://img.shields.io/badge/AWS-%23FF9900?style=flat-square&logo=amazon-aws&logoColor=white" /> | **4年** |
 | <img alt="GCP" src="https://img.shields.io/badge/GoogleCloud-%234285F4?style=flat-square&logo=google-cloud&logoColor=white" /> | **4年** |
 | <img alt="Azure" src="https://img.shields.io/badge/Azure-%230072C6?style=flat-square&logo=microsoft-azure&logoColor=white" /> | **2年** |
-| <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> | **3年** |
-| <img alt="Redis" src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" /> | **3年** |
+| <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> | **4年** |
+| <img alt="Redis" src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" /> | **4年** |
 | <img alt="Terraform" src="https://img.shields.io/badge/Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white" /> | **2年** |
-| <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> | **5年** |
+| <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> | **4年** |
 | <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" /> | **3年** |
 
 </div>
@@ -148,7 +148,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 <img alt="jQuery" src="https://img.shields.io/badge/jquery-%230769AD.svg?style=flat-square&logo=jquery&logoColor=white" />
 </p>
 
-**経験年数**: Vue.js（2 年）, React（1 年), jQuery（4 年）
+**経験年数**: Vue.js（2 年）, React（2 年）, jQuery（4 年）
 
 </div>
 
@@ -174,7 +174,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 <img alt="RAGAS" src="https://img.shields.io/badge/RAGAS-FF6B6B?style=flat-square&logo=python&logoColor=white" />
 </p>
 
-**経験年数**: k6 負荷試験（実績）, Protocol Buffers（4 年), LangChain（2 年）, RAGAS（1 年）
+**経験年数**: k6 負荷試験（実績）, Protocol Buffers（4 年）, LangChain（2 年）, RAGAS（1 年）
 
 </div>
 
@@ -183,9 +183,9 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 ## 📋 職務経歴（概要）
 
 ### 2022/04〜現在 | コンシューマーゲーム Backend開発（業務委託）
-<img alt="Status" src="https://img.shields.io/badge/Status-Current-brightgreen?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Tech%20Lead-blue?style=flat-square" />
+<img alt="Status" src="https://img.shields.io/badge/Status-Current-brightgreen?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Backend%20Engineer-green?style=flat-square" />
 
-**役割**: Backend Engineer / Tech Lead
+**役割**: Backend Engineer / Lead Engineer
 
 **成果**:
 
