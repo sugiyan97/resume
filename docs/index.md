@@ -367,7 +367,7 @@ RAG を用いた社内ナレッジ参照の生成 AI TeamsBot の開発。
       - モデルに合わせたテンプレート調整
       - RAGAS 実装サポート・精度改善検証対応
         - 4 値を利用して評価・検証
-          - Answer Relevency, Context Recall, Context Precision, Faithfulness
+          - Answer Relevency, Context Recall, Answer Semantic Similarity, Faithfulness
     - RAG のデータソース追加対応
       - SharePoint, Zendesk
     - メンバー増員に伴うドキュメント化（開発ノウハウ、運用ルールの明文化）
@@ -538,13 +538,13 @@ Line チャットボットの PoC 開発。
   - 共通
     - HTML&CSS, JavaScript, jQuery
   - 業務ビル系 業務 Web アプリケーション
-    - Java(Struts, Spring), Uunit, PostgreSQL
+    - Java(Struts, Spring), Junit, PostgreSQL
   - 工場系 業務 Web アプリケーション
     - Ruby(Ruby on Rails), Rspec, Sidekiq, Angular JS, PostgreSQL, Vagrant, Virtual Box, Docker
   - 業務ビル系、 薬学系 業務アプリケーション
     - C#(.NET Framework), SQLServer
   - 業務ビル系 業務アプリケーション
-    - C++, VB6, VGA, PostgreSQL
+    - C++, VB6, VBA, PostgreSQL
 - **役割：**
   - Web アプリケーションの新規開発・機能追加・バグ修正（フロントエンド、 バックエンド）
   - 要件定義~総合テストの実施
