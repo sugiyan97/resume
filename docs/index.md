@@ -35,6 +35,7 @@ title: "CV of Yoshiyuki Sugiyama"
 ## 🏆 主要実績・成果
 
 ### 🎯 大規模AIシステム開発
+
 <div style="border-left: 4px solid #667eea; padding-left: 15px; margin: 10px 0;">
 
 - **社内2,500名利用のRAG AI チャットボット**（Teams 連携）
@@ -44,6 +45,7 @@ title: "CV of Yoshiyuki Sugiyama"
 </div>
 
 ### 🚀 高負荷システム最適化
+
 <div style="border-left: 4px solid #f5576c; padding-left: 15px; margin: 10px 0;">
 
 - **ゲームサーバーのSpanner負荷対策**を主導
@@ -53,6 +55,7 @@ title: "CV of Yoshiyuki Sugiyama"
 </div>
 
 ### 🔧 技術リーダーシップ
+
 <div style="border-left: 4px solid #4facfe; padding-left: 15px; margin: 10px 0;">
 
 - 複数プロジェクトで**アーキテクチャ設計を主導**
@@ -129,6 +132,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 <div>
 
 #### 💻 言語
+
 <p style="display: flex; gap: 5px; flex-wrap: wrap; margin: 10px 0;">
 <img alt="C#" src="https://img.shields.io/badge/c%23-%23239120.svg?style=flat-square&logo=c-sharp&logoColor=white" />
 <img alt="Ruby" src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=flat-square&logo=ruby&logoColor=white" />
@@ -142,6 +146,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 <div>
 
 #### 🎨 Frontend
+
 <p style="display: flex; gap: 5px; flex-wrap: wrap; margin: 10px 0;">
 <img alt="Vue.js" src="https://img.shields.io/badge/vuejs-%2335495e.svg?style=flat-square&logo=vuedotjs&logoColor=%234FC08D" />
 <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB" />
@@ -155,6 +160,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 <div>
 
 #### 🗄️ Database
+
 <p style="display: flex; gap: 5px; flex-wrap: wrap; margin: 10px 0;">
 <img alt="DynamoDB" src="https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=flat-square&logo=Amazon%20DynamoDB&logoColor=white" />
 <img alt="Spanner" src="https://img.shields.io/badge/Google%20Spanner-4285F4?style=flat-square&logo=google-cloud&logoColor=white" />
@@ -167,6 +173,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 <div>
 
 #### 🛠️ その他ツール
+
 <p style="display: flex; gap: 5px; flex-wrap: wrap; margin: 10px 0;">
 <img alt="k6" src="https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white" />
 <img alt="Protocol Buffers" src="https://img.shields.io/badge/Protocol%20Buffers-02569B?style=flat-square&logo=google&logoColor=white" />
@@ -182,8 +189,9 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 
 ## 📋 職務経歴（概要）
 
-### 2022/04〜現在 | コンシューマーゲーム Backend開発（業務委託）
-<img alt="Status" src="https://img.shields.io/badge/Status-Current-brightgreen?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Backend%20Engineer-green?style=flat-square" />
+### 2022/04〜2026/03 | コンシューマーゲーム Backend開発（業務委託）
+
+<img alt="Status" src="https://img.shields.io/badge/Status-Completed-success?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Backend%20Engineer-green?style=flat-square" />
 
 **役割**: Backend Engineer / Lead Engineer
 
@@ -196,6 +204,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 **主要技術**: Go, Gin, Spanner, Redis, GKE, Protocol Buffers(gRPC, Twirp, connect-web)
 
 ### 2023/11〜2025/07 | 社内AI チャットボット開発（業務委託・副業）
+
 <img alt="Status" src="https://img.shields.io/badge/Status-Completed-success?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Lead%20Engineer-purple?style=flat-square" /> <img alt="Scale" src="https://img.shields.io/badge/Scale-2500%20Users-orange?style=flat-square" />
 
 **役割**: FullStack Engineer / Lead Engineer
@@ -209,6 +218,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 **主要技術**: Python, FastAPI, TypeScript, LangChain, AWS Bedrock, Azure, Teams Bot, Terraform
 
 ### 2023/01〜2023/07 | 医療系PHRアプリ開発（業務委託・副業）
+
 <img alt="Status" src="https://img.shields.io/badge/Status-Completed-success?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Backend%20Engineer-green?style=flat-square" />
 
 **役割**: Backend Engineer
@@ -222,6 +232,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 **主要技術**: Go, Gin, MySQL, Clean Architecture
 
 ### 2021/08〜2022/03 | PHR流通基盤の開発（業務委託）
+
 <img alt="Status" src="https://img.shields.io/badge/Status-Completed-success?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Lead%20Engineer-purple?style=flat-square" /> <img alt="Coverage" src="https://img.shields.io/badge/Test%20Coverage-97%25-brightgreen?style=flat-square" />
 
 **役割**: Lead Engineer
@@ -234,39 +245,75 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 
 **主要技術**: Python, Flask, oneM2M, AWS
 
-
 ## 📋 職務経歴詳細
+
+:::details 2026/04〜現在 不動産管理効率化に向けた MCP 開発および LLM 連携支援（業務委託）{open}
+
+**概要**
+- 更新中
+
+顧客ごとの作業効率化における開発支援全般。
+
+- **プロジェクト規模：**
+  - 更新中
+- **使用技術：**
+  - 更新中
+- **役割：**
+  - 更新中
+- **その他：**
+  - 社内効率化に向けた CI/CD テンプレートの用意
+  - 社内効率化に向けた Claude Code テンプレートの用意
+:::
 
 :::details 2025/11〜現在 AWS 上でデータ可視化・インフラ構築・推進（業務委託）{open}
 
 **概要**
-- Amazon Quick Suite に構築されたトピックでの AI の回答精度改善
-- Amazon Quick Suite のトピックでのデータ可視化対応（データ設計、 DWH/ETL 構築、 可視化構築）
+- Amazon Quick（旧 Amazon Quick Suite）に構築されたトピックでの AI の回答精度改善
+- Amazon Quick（旧 Amazon Quick Suite）のトピックでのデータ可視化対応（データ設計、 DWH/ETL 構築、 可視化構築）
 - Quick Sight でのダッシュボード作成のための設計・インフラ構築
+- SaaS 等の社内データを利用するためのデータ基盤の設計・構築
 
 AWS 上でのデータ可視化に伴う設計・開発全般。  
 
 - **プロジェクト規模：**
   - 3 人チームでのアジャイル開発
 - **使用技術：**
-  - AWS（s3, KMS, Glue, StepFunctions, Athena, Quick Suite）
+  - AWS（s3, KMS, Glue, StepFunctions, Athena, Quick, Lambda, sam, bedrock）
 - **役割：**
-  - Amazon Quick Suite のトピックでの AI による回答精度改善
-    - メタ情報の拡充
+  - Amazon Quick（旧 Amazon Quick Suite）のトピックでの AI による回答精度改善
+    - メタ情報の拡充(Friendly name, Synonyms, Details)
     - Custom Instructions の拡充
     - サジェスチョンを追加し、ユーザによる質問精度の向上
-  - データレベルの設計（P マーク取得準拠）
-  - 可視化時利用データ設計
-  - s3 バケット設計
-  - DWH/ETL インフラ設計・構築
-  - Athena View 設計
-  - Amazon Quick Suite のトピック作成による可視化
+  - Amazon Quick（旧 Amazon Quick Suite）のトピック作成による可視化
+  - SaaS 等データ可視化対応
+    - データレベルの設計（P マーク取得準拠）
+    - 可視化時利用データ設計
+    - s3 バケット設計
+      - 構成設計、 セキュリティ設計（SSE-S3, SSE-KMS 利用）
+    - DWH/ETL インフラ設計・構築
+      - s3 ~ StepFUnctions（Glue Job, Crawler, Data Catalog）~ Athena ~ Amazon Quick（旧 Amazon Quick Suite）
+    - Athena View 設計
+    - AI を用いた分類マッチング機能の設計・構築
+      - スクリプト設計・実装
+      - 精度改善対応
+        - 正解データの拡張・マスタデータの拡張
+        - Haiku 4.5 利用
+        - 分類ロジックの修正
+        - LLM に渡すデータを増やし正解率の向上
+    - コード・インフラの Terraform・GitHub 移行・構築
+    - 複数の SaaS を追加対応
+      - API で取得できる値の文書化
+      - 利用するデータ設計・固定値設計
+      - データセット設計
+  - 全社ルール&マスタデータ化の設計
+    - ETL 実装のために各種データ設計の厳密化設計
+    - Government Interoperability Framework(GIF) を参考に全社利用できるようなデータ基盤構築用設計
 - **その他：**
   - 可視化に伴う推奨提案
+  - 会社全体で利用できるデータ基盤を作成できるように構想を設計
 :::
 
-:::details 2022/04〜現在 コンシューマーゲームのサーバサイド開発全般（業務委託）{open}
-
+:::details 2022/04〜2026/03 コンシューマーゲームのサーバサイド開発全般（業務委託）{close}
 
 **概要**
 - コンシューマーゲームの Backend / 管理者ツール開発（Web アプリケーション）
@@ -304,6 +351,12 @@ AWS 上でのデータ可視化に伴う設計・開発全般。
     - KPI 設計・実装
     - コードレビュー対応
     - Redis に Hash を導入して Key 数の削減
+    - Go 1.26 へ移行検証
+      - hanndy-spanner から公式エミュレータを利用するように
+      - aws-sdk-go を最新のものに置き換え・一部改修
+      - 一部アーカイブされたライブラリの置き換え
+      - golangci-lint v2 系対応に伴うルールの最新化
+    - リリース時深夜監視対応
 - **その他：**
   - 管理者ツールの技術移行
   - API の高負荷対応
@@ -322,7 +375,6 @@ AWS 上でのデータ可視化に伴う設計・開発全般。
 - AWS / Azure マルチクラウド構成
 
 RAG を用いた社内ナレッジ参照の生成 AI TeamsBot の開発。
-
 
 - **プロジェクト規模：**
   - 2〜5 人チームでのアジャイル開発
