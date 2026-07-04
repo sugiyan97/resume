@@ -15,7 +15,7 @@ title: "CV of Yoshiyuki Sugiyama"
 
 ## 🎯 Professional Summary
 
-**Backend/Full-Stack Engineer | 8+ years experience**
+**Backend/Full-Stack Engineer | 9+ years experience**
 
 ### 大規模システムの設計・開発実績
 
@@ -250,17 +250,26 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 :::details 2026/04〜現在 不動産管理効率化に向けた MCP 開発および LLM 連携支援（業務委託）{open}
 
 **概要**
-- 更新中
+- 不動産審査業務向けアプリ（Kintone 連携）と MCP/LLM 連携基盤の開発・運用
+- テックリードとしてレビュー体制・CI/CD 基盤の構築を主導
+- 先方 PM を兼務し、スケジュール管理・要件調整・UAT レクチャーまで一貫対応
 
 顧客ごとの作業効率化における開発支援全般。
 
 - **プロジェクト規模：**
-  - 更新中
+  - 複数アプリの開発・保守
 - **使用技術：**
-  - 更新中
+  - AWS（ECR, ECS, Fargate, S3, CloudFront, API Gateway, Cognito, Lambda, SES, SQS, Secrets Manager）
 - **役割：**
-  - 更新中
+  - テックリード&エンジニア
 - **その他：**
+  - コーディング規約・脆弱性/コードレビュー体制（claude-review, security-scan）の整備
+  - CI/CD の実装、アプリ間連携の自動化
+  - アプリ 2 のフロントエンドセキュリティ強化（CSRF 対策、 HttpOnly Cookie, セキュリティヘッダー）と Cognito 導入
+  - メール基盤を SES+SQS 構成へ刷新
+  - Kintone 連携アプリの TOCTOU 対策・ハルシネーション抑制（temperature=0 明示）
+  - E2E 自動化システム開発、テストカバレッジ向上
+  - Issue からサブ Issue を生成する Skills 等、社内効率化スキルの作成
   - 社内効率化に向けた CI/CD テンプレートの用意
   - 社内効率化に向けた Claude Code テンプレートの用意
 :::
@@ -278,7 +287,7 @@ AWS 上でのデータ可視化に伴う設計・開発全般。
 - **プロジェクト規模：**
   - 3 人チームでのアジャイル開発
 - **使用技術：**
-  - AWS（s3, KMS, Glue, StepFunctions, Athena, Quick, Lambda, sam, bedrock）
+  - AWS（s3, KMS, Glue, StepFunctions, Athena, Quick, Lambda, sam, bedrock, DynamoDB, Cognito, API Gateway, CloudFront）
 - **役割：**
   - Amazon Quick（旧 Amazon Quick Suite）のトピックでの AI による回答精度改善
     - メタ情報の拡充(Friendly name, Synonyms, Details)
@@ -308,6 +317,11 @@ AWS 上でのデータ可視化に伴う設計・開発全般。
   - 全社ルール&マスタデータ化の設計
     - ETL 実装のために各種データ設計の厳密化設計
     - Government Interoperability Framework(GIF) を参考に全社利用できるようなデータ基盤構築用設計
+  - 社内チャットボット構築（PoC〜精度改善）
+    - 既存 Copilot 版の置き換えとなる PoC を設計・提案（UI/KPI/権限/マスキング設計含む）
+    - AWS 基盤構築（S3, DynamoDB, Cognito, Lambda, API Gateway, Bedrock Guardrails, Bedrock Sonnet 4.6/Haiku 4.5）
+    - LLM Judge による回答精度の定量評価システムを構築し継続的な精度改善に活用
+    - PII マスキング・参照元表示・カテゴリー設計など UI/UX を継続改善
 - **その他：**
   - 可視化に伴う推奨提案
   - 会社全体で利用できるデータ基盤を作成できるように構想を設計
