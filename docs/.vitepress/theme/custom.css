@@ -22,25 +22,6 @@
   font-weight: 600;
 }
 
-/* 画像バッジを含むテーブルセルの調整 */
-.vp-doc table td img {
-  display: inline-block !important;
-  margin: 2px !important;
-  vertical-align: middle !important;
-}
-
-/* テーブル内の画像バッジの改行を防ぐ */
-.vp-doc table td {
-  white-space: nowrap !important;
-}
-
-/* 技術名のセルは改行を許可 */
-.vp-doc table td:first-child {
-  white-space: normal !important;
-  width: 150px !important;
-  max-width: 150px !important;
-}
-
 /* VitePressのデフォルトテーブルスタイルを強制的にオーバーライド */
 .VPDoc .vp-doc table,
 .vp-doc .VPDoc table,
