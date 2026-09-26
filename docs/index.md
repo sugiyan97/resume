@@ -86,7 +86,7 @@ title: "CV of Yoshiyuki Sugiyama"
 
 <div style="display: grid; gap: 10px; margin: 15px 0;">
 
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 15px; border-radius: 8px; color: white;">
+<div style="background: linear-gradient(135deg, #5a67d8 0%, #764ba2 100%); padding: 15px; border-radius: 8px; color: white;">
 <strong>🤖 RAG/生成AI</strong><br>
 LangChain, AWS Bedrock（Claude）, Bedrock Guardrails, MCP, RAGAS/LLM Judge による精度評価
 </div>
@@ -96,7 +96,7 @@ LangChain, AWS Bedrock（Claude）, Bedrock Guardrails, MCP, RAGAS/LLM Judge に
 Go/Gin, gRPC, API最適化, Spanner最適化, Redis設計
 </div>
 
-<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 15px; border-radius: 8px; color: white;">
+<div style="background: linear-gradient(135deg, #0369a1 0%, #0e7490 100%); padding: 15px; border-radius: 8px; color: white;">
 <strong>☁️ クラウドアーキテクチャ</strong><br>
 AWS/GCP/Azure マルチクラウド, Terraform, Docker
 </div>
