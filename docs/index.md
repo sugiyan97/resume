@@ -193,7 +193,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 
 <img alt="Status" src="https://img.shields.io/badge/Status-Completed-success?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Backend%20Engineer-green?style=flat-square" />
 
-**役割**: Backend Engineer / Lead Engineer
+**役割**: Backend Engineer/Lead Engineer
 
 **成果**:
 
@@ -207,7 +207,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 
 <img alt="Status" src="https://img.shields.io/badge/Status-Completed-success?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Lead%20Engineer-purple?style=flat-square" /> <img alt="Scale" src="https://img.shields.io/badge/Scale-2500%20Users-orange?style=flat-square" />
 
-**役割**: FullStack Engineer / Lead Engineer
+**役割**: FullStack Engineer/Lead Engineer
 
 **成果**:
 
@@ -338,8 +338,8 @@ AWS 上でのデータ可視化に伴う設計・開発全般。
 :::details 2022/04〜2026/03 コンシューマーゲームのサーバサイド開発全般（業務委託）{close}
 
 **概要**
-- コンシューマーゲームの Backend / 管理者ツール開発（Web アプリケーション）
-- 高負荷 API・Spanner / Redis の設計・最適化
+- コンシューマーゲームの Backend/管理者ツール開発（Web アプリケーション）
+- 高負荷 API・Spanner/Redis の設計・最適化
 - 新規タイトル立ち上げ〜運用まで対応
 
 コンシューマーゲームのサーバサイド開発全般。  
@@ -394,7 +394,7 @@ AWS 上でのデータ可視化に伴う設計・開発全般。
 **概要**
 - 社内 2,500 名が利用する RAG AI TeamsBot
 - PoC〜本番運用・精度改善まで一貫して担当
-- AWS / Azure マルチクラウド構成
+- AWS/Azure マルチクラウド構成
 
 RAG を用いた社内ナレッジ参照の生成 AI TeamsBot の開発。
 
