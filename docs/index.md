@@ -193,7 +193,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 
 <img alt="Status" src="https://img.shields.io/badge/Status-Completed-success?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Backend%20Engineer-green?style=flat-square" />
 
-**役割**: Backend Engineer / Lead Engineer
+**役割**: Backend Engineer/Lead Engineer
 
 **成果**:
 
@@ -207,7 +207,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 
 <img alt="Status" src="https://img.shields.io/badge/Status-Completed-success?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Lead%20Engineer-purple?style=flat-square" /> <img alt="Scale" src="https://img.shields.io/badge/Scale-2500%20Users-orange?style=flat-square" />
 
-**役割**: FullStack Engineer / Lead Engineer
+**役割**: FullStack Engineer/Lead Engineer
 
 **成果**:
 
@@ -252,7 +252,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 **概要**
 - 不動産審査業務向けアプリ（Kintone 連携）と MCP/LLM 連携基盤の開発・運用
 - テックリードとしてレビュー体制・CI/CD 基盤の構築を主導
-- 先方 PM を兼務し、スケジュール管理・要件調整・UAT レクチャーまで一貫対応
+- UAT レクチャーから先方 UAT 結果の調査・修正まで対応
 
 顧客ごとの作業効率化における開発支援全般。
 
@@ -264,11 +264,14 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
   - テックリード&エンジニア
 - **その他：**
   - コーディング規約・脆弱性/コードレビュー体制（claude-review, security-scan）の整備
+  - リファクタ・バグの Issue 化による課題管理の整理
   - CI/CD の実装、アプリ間連携の自動化
   - アプリ 2 のフロントエンドセキュリティ強化（CSRF 対策、 HttpOnly Cookie, セキュリティヘッダー）と Cognito 導入
+  - アプリ 2 の廃止アプリ関連の削除対応
   - メール基盤を SES+SQS 構成へ刷新
   - Kintone 連携アプリの TOCTOU 対策・ハルシネーション抑制（temperature=0 明示）
-  - E2E 自動化システム開発、テストカバレッジ向上
+  - 抽出精度の調査
+  - E2E 自動化システム開発（精度検証・バグ調査、実施時スナップショット機能、正解データ・テストパターン拡充、labels.yaml 調整）、テストカバレッジ向上
   - Issue からサブ Issue を生成する Skills 等、社内効率化スキルの作成
   - 社内効率化に向けた CI/CD テンプレートの用意
   - 社内効率化に向けた Claude Code テンプレートの用意
@@ -287,7 +290,7 @@ AWS 上でのデータ可視化に伴う設計・開発全般。
 - **プロジェクト規模：**
   - 3 人チームでのアジャイル開発
 - **使用技術：**
-  - AWS（s3, KMS, Glue, StepFunctions, Athena, Quick, Lambda, sam, bedrock, DynamoDB, Cognito, API Gateway, CloudFront）
+  - AWS（s3, KMS, Glue, StepFunctions, Athena, Quick, Lambda, sam, bedrock, DynamoDB, Cognito（SAML 連携）, API Gateway, CloudFront）
 - **役割：**
   - Amazon Quick（旧 Amazon Quick Suite）のトピックでの AI による回答精度改善
     - メタ情報の拡充(Friendly name, Synonyms, Details)
@@ -320,8 +323,13 @@ AWS 上でのデータ可視化に伴う設計・開発全般。
   - 社内チャットボット構築（PoC〜精度改善）
     - 既存 Copilot 版の置き換えとなる PoC を設計・提案（UI/KPI/権限/マスキング設計含む）
     - AWS 基盤構築（S3, DynamoDB, Cognito, Lambda, API Gateway, Bedrock Guardrails, Bedrock Sonnet 4.6/Haiku 4.5）
-    - LLM Judge による回答精度の定量評価システムを構築し継続的な精度改善に活用
+    - Golden データセットを併用した LLM Judge による回答精度の定量評価システムを構築し継続的な精度改善に活用
+    - ナレッジベースの精度改善（PDF の Markdown 変換取り込み、 Excel hidden シート除外、 チャンクへの文脈付与、 input データ削除時の Index 不整合修正）
+    - セキュリティ・ガバナンス対応（個人名・P マーク対象情報・AI 利用ツール情報の回答抑制、 プロンプトインジェクション対策）
     - PII マスキング・参照元表示・カテゴリー設計など UI/UX を継続改善
+    - ポータルからの SAML ログイン連携（先方と SAML 送信仕様を選定、 ログインボタン追加）
+    - セッション削除を物理削除＋S3 アーカイブ方式に見直し
+    - Terraform による本番環境構築
 - **その他：**
   - 可視化に伴う推奨提案
   - 会社全体で利用できるデータ基盤を作成できるように構想を設計
@@ -330,8 +338,8 @@ AWS 上でのデータ可視化に伴う設計・開発全般。
 :::details 2022/04〜2026/03 コンシューマーゲームのサーバサイド開発全般（業務委託）{close}
 
 **概要**
-- コンシューマーゲームの Backend / 管理者ツール開発（Web アプリケーション）
-- 高負荷 API・Spanner / Redis の設計・最適化
+- コンシューマーゲームの Backend/管理者ツール開発（Web アプリケーション）
+- 高負荷 API・Spanner/Redis の設計・最適化
 - 新規タイトル立ち上げ〜運用まで対応
 
 コンシューマーゲームのサーバサイド開発全般。  
@@ -386,7 +394,7 @@ AWS 上でのデータ可視化に伴う設計・開発全般。
 **概要**
 - 社内 2,500 名が利用する RAG AI TeamsBot
 - PoC〜本番運用・精度改善まで一貫して担当
-- AWS / Azure マルチクラウド構成
+- AWS/Azure マルチクラウド構成
 
 RAG を用いた社内ナレッジ参照の生成 AI TeamsBot の開発。
 
