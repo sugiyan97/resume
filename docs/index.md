@@ -15,32 +15,47 @@ title: "CV of Yoshiyuki Sugiyama"
 
 ## 🎯 Professional Summary
 
-**Backend/Full-Stack Engineer | 9+ years experience**
+**生成 AI/LLM アプリケーション × Backend のテックリード | エンジニア歴 約 9 年（2017〜）**
 
-### 大規模システムの設計・開発実績
+生成 AI/LLM アプリケーションを PoC から本番運用・精度改善まで一貫して作るテックリード。
+高負荷 Backend（Go/Spanner/Redis）で培った設計力を土台に、RAG・LLM 評価・データ基盤・MCP 連携まで対応。
 
-- 2,500 名規模の RAG AI システムを PoC〜本番運用まで一貫して担当
-- 高負荷ゲームサーバー（Spanner/Redis）の性能最適化・API リファクタを担当
+### 生成 AI/LLM アプリケーションの本番化
 
-### 最新技術への深い取り組み
+- 2,500 名規模の RAG AI チャットボットを PoC〜本番運用まで一貫して担当（2023 年〜）
+- LLM Judge と Golden データセットによる回答精度の定量評価基盤を構築し、継続的な精度改善に活用
+- MCP/LLM 連携基盤と Kintone 連携の業務アプリを、テックリードとして開発・運用（2026 年〜）
 
-- 生成 AI/RAG システムの早期導入・プロダクト化（2023 年〜）
-- マルチクラウド（AWS/GCP/Azure）での実装経験
+### データ基盤・高負荷 Backend
 
-### 技術リーダーシップ
+- AWS 上の DWH/ETL（Glue, Step Functions, Athena）と Amazon Quick による全社データ可視化基盤を設計・構築
+- 高負荷ゲームサーバー（Spanner/Redis）の性能最適化・API 開発を 4 年間担当
 
-- チーム技術選定・アーキテクチャ設計を主導
-- 既存システムのリアーキテクチャ・性能改善を複数プロジェクトで実現
+### 技術リーダーシップ・開発効率化
+
+- 技術選定・アーキテクチャ設計、レビュー体制・CI/CD 基盤の構築を主導
+- Claude Code のテンプレートや Skills を整備し、AI を活用した開発の効率化を推進
 
 ## 🏆 主要実績・成果
 
-### 🎯 大規模AIシステム開発
+### 🎯 生成 AI/LLM アプリケーション開発
 
 <div style="border-left: 4px solid #667eea; padding-left: 15px; margin: 10px 0;">
 
-- **社内2,500名利用のRAG AI チャットボット**（Teams 連携）
-- PoC〜本番運用・精度改善まで一貫して担当
+- **社内2,500名利用のRAG AI チャットボット**（Teams 連携）を PoC〜本番運用・精度改善まで一貫して担当
 - **RAGAS評価による精度改善**を実現
+- **LLM Judge＋Golden データセット**による回答精度の定量評価システムを構築（社内チャットボット、 Bedrock Guardrails・SAML 連携）
+- **MCP/LLM 連携基盤**の開発で、テックリードとしてレビュー体制・CI/CD を整備
+
+</div>
+
+### 📊 データ基盤構築
+
+<div style="border-left: 4px solid #43e97b; padding-left: 15px; margin: 10px 0;">
+
+- **S3〜Step Functions（Glue）〜Athena〜Amazon Quick** による DWH/ETL 基盤を設計・構築
+- **P マーク準拠のデータレベル設計**と、全社で使えるマスタデータ・ルールを設計
+- **LLM を用いた分類マッチング機能**を構築し、正解率を改善
 
 </div>
 
@@ -61,6 +76,7 @@ title: "CV of Yoshiyuki Sugiyama"
 - 複数プロジェクトで**アーキテクチャ設計を主導**
 - チームメンバーの**マネジメント・技術支援**
 - **レガシーシステムの技術刷新**を推進
+- **Claude Code のテンプレート・Skills** による社内の開発効率化を推進
 
 </div>
 
@@ -72,7 +88,7 @@ title: "CV of Yoshiyuki Sugiyama"
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 15px; border-radius: 8px; color: white;">
 <strong>🤖 RAG/生成AI</strong><br>
-LangChain, AWS Bedrock, RAGAS評価
+LangChain, AWS Bedrock（Claude）, Bedrock Guardrails, MCP, RAGAS/LLM Judge による精度評価
 </div>
 
 <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 15px; border-radius: 8px; color: white;">
@@ -85,9 +101,14 @@ Go/Gin, gRPC, API最適化, Spanner最適化, Redis設計
 AWS/GCP/Azure マルチクラウド, Terraform, Docker
 </div>
 
+<div style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); padding: 15px; border-radius: 8px; color: #1a1a1a;">
+<strong>📊 データ基盤</strong><br>
+AWS Glue, Step Functions, Athena, Amazon Quick（DWH/ETL・可視化）
 </div>
 
-### 💪 主要技術（業務経験3年+）
+</div>
+
+### 💪 主要技術（業務経験2年+）
 
 <div style="display: grid; gap: 15px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
 
@@ -101,9 +122,8 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 | <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white" /> | **4年** |
 | <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black" /> | **7年** |
 | <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /> | **2年** |
-| <img alt="Flask" src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=Flask&logoColor=white" /> | **2年** |
-| <img alt="Django" src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white" /> | **2年** |
 | <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" /> | **2年** |
+| <img alt="Protocol Buffers" src="https://img.shields.io/badge/Protocol%20Buffers-02569B?style=flat-square&logo=google&logoColor=white" /> | **4年** |
 
 </div>
 
@@ -113,8 +133,9 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 
 | 技術 | 経験年数 |
 | --- | --- |
-| <img alt="AWS" src="https://img.shields.io/badge/AWS-%23FF9900?style=flat-square&logo=amazon-aws&logoColor=white" /> | **4年** |
+| <img alt="AWS" src="https://img.shields.io/badge/AWS-%23FF9900?style=flat-square&logo=amazon-aws&logoColor=white" /> | **5年** |
 | <img alt="GCP" src="https://img.shields.io/badge/GoogleCloud-%234285F4?style=flat-square&logo=google-cloud&logoColor=white" /> | **4年** |
+| <img alt="Spanner" src="https://img.shields.io/badge/Google%20Spanner-4285F4?style=flat-square&logo=google-cloud&logoColor=white" /> | **4年** |
 | <img alt="Azure" src="https://img.shields.io/badge/Azure-%230072C6?style=flat-square&logo=microsoft-azure&logoColor=white" /> | **2年** |
 | <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> | **4年** |
 | <img alt="Redis" src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" /> | **4年** |
@@ -131,15 +152,17 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 
 <div>
 
-#### 💻 言語
+#### 💻 言語・フレームワーク
 
 <p style="display: flex; gap: 5px; flex-wrap: wrap; margin: 10px 0;">
 <img alt="C#" src="https://img.shields.io/badge/c%23-%23239120.svg?style=flat-square&logo=c-sharp&logoColor=white" />
 <img alt="Ruby" src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=flat-square&logo=ruby&logoColor=white" />
 <img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white" />
+<img alt="Flask" src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=Flask&logoColor=white" />
+<img alt="Django" src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white" />
 </p>
 
-**経験年数**: C#（2 年）, Ruby（1 年), Java（1 年）
+**経験年数**: C#（2 年）, Ruby（1 年）, Java（1 年）, Flask（1 年未満）, Django（1 年）
 
 </div>
 
@@ -151,9 +174,10 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 <img alt="Vue.js" src="https://img.shields.io/badge/vuejs-%2335495e.svg?style=flat-square&logo=vuedotjs&logoColor=%234FC08D" />
 <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB" />
 <img alt="jQuery" src="https://img.shields.io/badge/jquery-%230769AD.svg?style=flat-square&logo=jquery&logoColor=white" />
+<img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
 </p>
 
-**経験年数**: Vue.js（2 年）, React（2 年）, jQuery（4 年）
+**経験年数**: Vue.js（2 年）, React（2 年）, jQuery（4 年）, Next.js（1 年未満）
 
 </div>
 
@@ -163,10 +187,9 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 
 <p style="display: flex; gap: 5px; flex-wrap: wrap; margin: 10px 0;">
 <img alt="DynamoDB" src="https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=flat-square&logo=Amazon%20DynamoDB&logoColor=white" />
-<img alt="Spanner" src="https://img.shields.io/badge/Google%20Spanner-4285F4?style=flat-square&logo=google-cloud&logoColor=white" />
 </p>
 
-**経験年数**: DynamoDB（2 年）, Spanner（4 年）
+**経験年数**: DynamoDB（2 年）
 
 </div>
 
@@ -176,18 +199,47 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 
 <p style="display: flex; gap: 5px; flex-wrap: wrap; margin: 10px 0;">
 <img alt="k6" src="https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white" />
-<img alt="Protocol Buffers" src="https://img.shields.io/badge/Protocol%20Buffers-02569B?style=flat-square&logo=google&logoColor=white" />
 <img alt="LangChain" src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
 <img alt="RAGAS" src="https://img.shields.io/badge/RAGAS-FF6B6B?style=flat-square&logo=python&logoColor=white" />
 </p>
 
-**経験年数**: k6 負荷試験（実績）, Protocol Buffers（4 年）, LangChain（2 年）, RAGAS（1 年）
+**経験年数**: k6 負荷試験（実績）, LangChain（2 年）, RAGAS（1 年）
 
 </div>
 
 </div>
 
 ## 📋 職務経歴（概要）
+
+### 2026/04〜現在 | MCP/LLM 連携による不動産管理業務の効率化（業務委託）
+
+<img alt="Status" src="https://img.shields.io/badge/Status-In%20Progress-blue?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Tech%20Lead-purple?style=flat-square" />
+
+**役割**: Tech Lead/Engineer
+
+**成果**:
+
+- **MCP/LLM 連携基盤と Kintone 連携アプリ**を開発・運用
+- **レビュー体制（claude-review, security-scan）と CI/CD 基盤**を構築
+- **フロントエンドのセキュリティ強化**（CSRF 対策、 HttpOnly Cookie, Cognito 導入）とメール基盤の刷新（SES＋SQS）
+- **Claude Code のテンプレート・Skills** を整備し、社内の開発効率化を推進
+
+**主要技術**: Python（FastAPI）, TypeScript（React, Next.js）, AWS（ECS/Fargate, Lambda, Cognito, SES/SQS）, Kintone, MCP, Claude Code
+
+### 2025/11〜現在 | AWS データ基盤・社内 AI チャットボット構築（業務委託・副業）
+
+<img alt="Status" src="https://img.shields.io/badge/Status-In%20Progress-blue?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Engineer-green?style=flat-square" />
+
+**役割**: Data/AI Engineer
+
+**成果**:
+
+- **SaaS データを集約する DWH/ETL 基盤**を設計・構築し、 Amazon Quick で可視化
+- **社内 AI チャットボット**を PoC〜本番環境構築まで担当（Bedrock, Guardrails, SAML 連携）
+- **LLM Judge＋Golden データセット**で回答精度を定量評価し、継続的に改善
+- **LLM を用いた分類マッチング機能**を構築し、正解率を改善
+
+**主要技術**: Python（FastAPI）, TypeScript（React, Next.js）, AWS（Glue, Step Functions, Athena, Amazon Quick, Bedrock）, Terraform
 
 ### 2022/04〜2026/03 | コンシューマーゲーム Backend開発（業務委託）
 
@@ -199,7 +251,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 
 - **Spanner負荷問題を解決**し、サービス安定性を向上
 - **新規タイトル立ち上げ**を技術面でサポート
-- **管理者ツールの最新技術化**（React → Vue3/TypeScript）を推進
+- **新規タイトルの管理者ツール**で Vue3/TypeScript を技術選定・導入
 
 **主要技術**: Go, Gin, Spanner, Redis, GKE, Protocol Buffers(gRPC, Twirp, connect-web)
 
@@ -227,7 +279,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 
 - **Clean Architecture**によりコード品質向上
 - **Bluetooth連携アプリ追加**を対応・リリース
-- **UnitTest導入**（カバレッジ 97％達成）
+- **UnitTest導入**（go-mock, .http）
 
 **主要技術**: Go, Gin, MySQL, Clean Architecture
 
@@ -242,6 +294,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 - **特殊ライブラリ（oneM2M）をマスター**し、国プロ要件を満たすシステムを構築
 - **開発の8割を担当**し、プロジェクトをリード
 - **多言語対応**（日英）を実装
+- **UnitTest のカバレッジ 97％**を達成
 
 **主要技術**: Python, Flask, oneM2M, AWS
 
@@ -259,6 +312,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
 - **プロジェクト規模：**
   - 複数アプリの開発・保守
 - **使用技術：**
+  - Python（FastAPI）, TypeScript（React, Next.js）
   - AWS（ECR, ECS, Fargate, S3, CloudFront, API Gateway, Cognito, Lambda, SES, SQS, Secrets Manager）
 - **役割：**
   - テックリード&エンジニア
@@ -277,7 +331,7 @@ AWS/GCP/Azure マルチクラウド, Terraform, Docker
   - 社内効率化に向けた Claude Code テンプレートの用意
 :::
 
-:::details 2025/11〜現在 AWS 上でデータ可視化・インフラ構築・推進（業務委託）{open}
+:::details 2025/11〜現在 AWS 上でデータ可視化・インフラ構築・推進（業務委託： 副業）{open}
 
 **概要**
 - Amazon Quick（旧 Amazon Quick Suite）に構築されたトピックでの AI の回答精度改善
@@ -290,6 +344,7 @@ AWS 上でのデータ可視化に伴う設計・開発全般。
 - **プロジェクト規模：**
   - 3 人チームでのアジャイル開発
 - **使用技術：**
+  - Python（FastAPI）, TypeScript（React, Next.js）
   - AWS（s3, KMS, Glue, StepFunctions, Athena, Quick, Lambda, sam, bedrock, DynamoDB, Cognito（SAML 連携）, API Gateway, CloudFront）
 - **役割：**
   - Amazon Quick（旧 Amazon Quick Suite）のトピックでの AI による回答精度改善
@@ -367,7 +422,7 @@ AWS 上でのデータ可視化に伴う設計・開発全般。
     - コードレビュー対応
   - ゲーム 2（新規開発）
     - Backend API の新規作成・改修・バグ修正
-    - 管理者ツールのフロントエンド最新技術化
+    - 管理者ツールのフロントエンド技術選定・導入（Vue3, TypeScript）
     - Spanner 負荷対策（STORING Index 活用）
     - 負荷試験の実施・対応
     - KPI 設計・実装
@@ -380,7 +435,7 @@ AWS 上でのデータ可視化に伴う設計・開発全般。
       - golangci-lint v2 系対応に伴うルールの最新化
     - リリース時深夜監視対応
 - **その他：**
-  - 管理者ツールの技術移行
+  - 新規タイトルでの管理者ツールの技術選定
   - API の高負荷対応
   - nvm の導入
   - node とライブラリのバージョンアップ対応
