@@ -110,110 +110,25 @@ AWS Glue, Step Functions, Athena, Amazon Quick（DWH/ETL・可視化）
 
 ### 💪 主要技術（業務経験2年+）
 
-<div style="display: grid; gap: 15px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
-
-<div>
-
-#### 言語・フレームワーク
-
-| 技術 | 経験年数 |
+| 分類 | 技術（経験年数） |
 | --- | --- |
-| <img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" /><img alt="Gin" src="https://img.shields.io/badge/Gin-1.x-00C397?style=flat-square&logo=go&logoColor=white" /> | **4年** |
-| <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white" /> | **4年** |
-| <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black" /> | **7年** |
-| <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /> | **2年** |
-| <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" /> | **2年** |
-| <img alt="Protocol Buffers" src="https://img.shields.io/badge/Protocol%20Buffers-02569B?style=flat-square&logo=google&logoColor=white" /> | **4年** |
-
-</div>
-
-<div>
-
-#### インフラ・DB・その他
-
-| 技術 | 経験年数 |
-| --- | --- |
-| <img alt="AWS" src="https://img.shields.io/badge/AWS-%23FF9900?style=flat-square&logo=amazon-aws&logoColor=white" /> | **5年** |
-| <img alt="GCP" src="https://img.shields.io/badge/GoogleCloud-%234285F4?style=flat-square&logo=google-cloud&logoColor=white" /> | **4年** |
-| <img alt="Spanner" src="https://img.shields.io/badge/Google%20Spanner-4285F4?style=flat-square&logo=google-cloud&logoColor=white" /> | **4年** |
-| <img alt="Azure" src="https://img.shields.io/badge/Azure-%230072C6?style=flat-square&logo=microsoft-azure&logoColor=white" /> | **2年** |
-| <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> | **4年** |
-| <img alt="Redis" src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" /> | **4年** |
-| <img alt="Terraform" src="https://img.shields.io/badge/Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white" /> | **2年** |
-| <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> | **4年** |
-| <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" /> | **3年** |
-
-</div>
-</div>
+| 言語・フレームワーク | Go/Gin（4 年）, Python（4 年）, JavaScript（7 年）, FastAPI（2 年）, TypeScript（2 年）, Protocol Buffers（4 年） |
+| クラウド | AWS（5 年）, Google Cloud（4 年）, Azure（2 年） |
+| DB・キャッシュ | Spanner（4 年）, MySQL（4 年）, Redis（4 年）, PostgreSQL（3 年） |
+| インフラ・ツール | Docker（4 年）, Terraform（2 年） |
 
 ### 📚 その他経験技術
 
-<div style="display: grid; gap: 15px; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
-
-<div>
-
-#### 💻 言語・フレームワーク
-
-<p style="display: flex; gap: 5px; flex-wrap: wrap; margin: 10px 0;">
-<img alt="C#" src="https://img.shields.io/badge/c%23-%23239120.svg?style=flat-square&logo=c-sharp&logoColor=white" />
-<img alt="Ruby" src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=flat-square&logo=ruby&logoColor=white" />
-<img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white" />
-<img alt="Flask" src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=Flask&logoColor=white" />
-<img alt="Django" src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white" />
-</p>
-
-**経験年数**: C#（2 年）, Ruby（1 年）, Java（1 年）, Flask（1 年未満）, Django（1 年）
-
-</div>
-
-<div>
-
-#### 🎨 Frontend
-
-<p style="display: flex; gap: 5px; flex-wrap: wrap; margin: 10px 0;">
-<img alt="Vue.js" src="https://img.shields.io/badge/vuejs-%2335495e.svg?style=flat-square&logo=vuedotjs&logoColor=%234FC08D" />
-<img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB" />
-<img alt="jQuery" src="https://img.shields.io/badge/jquery-%230769AD.svg?style=flat-square&logo=jquery&logoColor=white" />
-<img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-</p>
-
-**経験年数**: Vue.js（2 年）, React（2 年）, jQuery（4 年）, Next.js（1 年未満）
-
-</div>
-
-<div>
-
-#### 🗄️ Database
-
-<p style="display: flex; gap: 5px; flex-wrap: wrap; margin: 10px 0;">
-<img alt="DynamoDB" src="https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=flat-square&logo=Amazon%20DynamoDB&logoColor=white" />
-</p>
-
-**経験年数**: DynamoDB（2 年）
-
-</div>
-
-<div>
-
-#### 🛠️ その他ツール
-
-<p style="display: flex; gap: 5px; flex-wrap: wrap; margin: 10px 0;">
-<img alt="k6" src="https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white" />
-<img alt="LangChain" src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
-<img alt="RAGAS" src="https://img.shields.io/badge/RAGAS-FF6B6B?style=flat-square&logo=python&logoColor=white" />
-</p>
-
-**経験年数**: k6 負荷試験（実績）, LangChain（2 年）, RAGAS（1 年）
-
-</div>
-
-</div>
+| 分類 | 技術（経験年数） |
+| --- | --- |
+| 言語・フレームワーク | C#（2 年）, Ruby（1 年）, Java（1 年）, Django（1 年）, Flask（1 年未満） |
+| Frontend | jQuery（4 年）, Vue.js（2 年）, React（2 年）, Next.js（1 年未満） |
+| Database | DynamoDB（2 年） |
+| その他ツール | LangChain（2 年）, RAGAS（1 年）, k6（負荷試験の実績あり） |
 
 ## 📋 職務経歴（概要）
 
 ### 2026/04〜現在 | MCP/LLM 連携による不動産管理業務の効率化（業務委託）
-
-<img alt="Status" src="https://img.shields.io/badge/Status-In%20Progress-blue?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Tech%20Lead-purple?style=flat-square" />
 
 **役割**: Tech Lead/Engineer
 
@@ -228,8 +143,6 @@ AWS Glue, Step Functions, Athena, Amazon Quick（DWH/ETL・可視化）
 
 ### 2025/11〜現在 | AWS データ基盤・社内 AI チャットボット構築（業務委託・副業）
 
-<img alt="Status" src="https://img.shields.io/badge/Status-In%20Progress-blue?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Engineer-green?style=flat-square" />
-
 **役割**: Data/AI Engineer
 
 **成果**:
@@ -243,8 +156,6 @@ AWS Glue, Step Functions, Athena, Amazon Quick（DWH/ETL・可視化）
 
 ### 2022/04〜2026/03 | コンシューマーゲーム Backend開発（業務委託）
 
-<img alt="Status" src="https://img.shields.io/badge/Status-Completed-success?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Backend%20Engineer-green?style=flat-square" />
-
 **役割**: Backend Engineer/Lead Engineer
 
 **成果**:
@@ -256,8 +167,6 @@ AWS Glue, Step Functions, Athena, Amazon Quick（DWH/ETL・可視化）
 **主要技術**: Go, Gin, Spanner, Redis, GKE, Protocol Buffers(gRPC, Twirp, connect-web)
 
 ### 2023/11〜2025/07 | 社内AI チャットボット開発（業務委託・副業）
-
-<img alt="Status" src="https://img.shields.io/badge/Status-Completed-success?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Lead%20Engineer-purple?style=flat-square" /> <img alt="Scale" src="https://img.shields.io/badge/Scale-2500%20Users-orange?style=flat-square" />
 
 **役割**: FullStack Engineer/Lead Engineer
 
@@ -271,8 +180,6 @@ AWS Glue, Step Functions, Athena, Amazon Quick（DWH/ETL・可視化）
 
 ### 2023/01〜2023/07 | 医療系PHRアプリ開発（業務委託・副業）
 
-<img alt="Status" src="https://img.shields.io/badge/Status-Completed-success?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Backend%20Engineer-green?style=flat-square" />
-
 **役割**: Backend Engineer
 
 **成果**:
@@ -284,8 +191,6 @@ AWS Glue, Step Functions, Athena, Amazon Quick（DWH/ETL・可視化）
 **主要技術**: Go, Gin, MySQL, Clean Architecture
 
 ### 2021/08〜2022/03 | PHR流通基盤の開発（業務委託）
-
-<img alt="Status" src="https://img.shields.io/badge/Status-Completed-success?style=flat-square" /> <img alt="Role" src="https://img.shields.io/badge/Role-Lead%20Engineer-purple?style=flat-square" /> <img alt="Coverage" src="https://img.shields.io/badge/Test%20Coverage-97%25-brightgreen?style=flat-square" />
 
 **役割**: Lead Engineer
 
@@ -335,8 +240,8 @@ AWS Glue, Step Functions, Athena, Amazon Quick（DWH/ETL・可視化）
 
 **概要**
 - Amazon Quick（旧 Amazon Quick Suite）に構築されたトピックでの AI の回答精度改善
-- Amazon Quick（旧 Amazon Quick Suite）のトピックでのデータ可視化対応（データ設計、 DWH/ETL 構築、 可視化構築）
-- Quick Sight でのダッシュボード作成のための設計・インフラ構築
+- Amazon Quick のトピックでのデータ可視化対応（データ設計、 DWH/ETL 構築、 可視化構築）
+- Amazon Quick（QuickSight）でのダッシュボード作成のための設計・インフラ構築
 - SaaS 等の社内データを利用するためのデータ基盤の設計・構築
 
 AWS 上でのデータ可視化に伴う設計・開発全般。  
@@ -345,20 +250,20 @@ AWS 上でのデータ可視化に伴う設計・開発全般。
   - 3 人チームでのアジャイル開発
 - **使用技術：**
   - Python（FastAPI）, TypeScript（React, Next.js）
-  - AWS（s3, KMS, Glue, StepFunctions, Athena, Quick, Lambda, sam, bedrock, DynamoDB, Cognito（SAML 連携）, API Gateway, CloudFront）
+  - AWS（S3, KMS, Glue, Step Functions, Athena, Quick, Lambda, SAM, Bedrock, DynamoDB, Cognito（SAML 連携）, API Gateway, CloudFront）
 - **役割：**
-  - Amazon Quick（旧 Amazon Quick Suite）のトピックでの AI による回答精度改善
+  - Amazon Quick のトピックでの AI による回答精度改善
     - メタ情報の拡充(Friendly name, Synonyms, Details)
     - Custom Instructions の拡充
     - サジェスチョンを追加し、ユーザによる質問精度の向上
-  - Amazon Quick（旧 Amazon Quick Suite）のトピック作成による可視化
+  - Amazon Quick のトピック作成による可視化
   - SaaS 等データ可視化対応
     - データレベルの設計（P マーク取得準拠）
     - 可視化時利用データ設計
-    - s3 バケット設計
+    - S3 バケット設計
       - 構成設計、 セキュリティ設計（SSE-S3, SSE-KMS 利用）
     - DWH/ETL インフラ設計・構築
-      - s3 ~ StepFUnctions（Glue Job, Crawler, Data Catalog）~ Athena ~ Amazon Quick（旧 Amazon Quick Suite）
+      - S3〜Step Functions（Glue Job, Crawler, Data Catalog）〜Athena〜Amazon Quick
     - Athena View 設計
     - AI を用いた分類マッチング機能の設計・構築
       - スクリプト設計・実装
@@ -405,7 +310,7 @@ AWS 上でのデータ可視化に伴う設計・開発全般。
   - 4〜5 人チームでのアジャイル開発
 - **使用技術：**
   - 共通
-    - Gin(golang), Docker, Vagrant, Protocol Buffers(gRPC, Twirp), AWS(s3), Fluentd, memcached, Node
+    - Gin(Go), Docker, Vagrant, Protocol Buffers(gRPC, Twirp), AWS(S3), Fluentd, memcached, Node
     - GoogleCloud(Spanner, Cloud Build, GKE, Redis, MySQL 5.7.26)
   - ゲーム 1
     - Go 1.16, HTML&CSS, JavaScript, jQuery, Datatables, React
@@ -429,7 +334,7 @@ AWS 上でのデータ可視化に伴う設計・開発全般。
     - コードレビュー対応
     - Redis に Hash を導入して Key 数の削減
     - Go 1.26 へ移行検証
-      - hanndy-spanner から公式エミュレータを利用するように
+      - handy-spanner から公式エミュレータを利用するように
       - aws-sdk-go を最新のものに置き換え・一部改修
       - 一部アーカイブされたライブラリの置き換え
       - golangci-lint v2 系対応に伴うルールの最新化
@@ -441,10 +346,10 @@ AWS 上でのデータ可視化に伴う設計・開発全般。
   - node とライブラリのバージョンアップ対応
   - ESLint のルール整備
   - FlatConfig への移行
-  - go ライブラリのアーカイブに伴う移行（goccy/go-json, GitHub/pkg/errors 等）
+  - go ライブラリのアーカイブに伴う移行（`goccy/go-json`, `github.com/pkg/errors` 等）
 :::
 
-:::details 2023/11〜2025/07 社内ナレッジ参照の AI チャットアプリ開発（業務委託：副業）{close}
+:::details 2023/11〜2025/07 社内ナレッジ参照の AI チャットアプリ開発（業務委託： 副業）{close}
 
 **概要**
 - 社内 2,500 名が利用する RAG AI TeamsBot
@@ -460,14 +365,14 @@ RAG を用いた社内ナレッジ参照の生成 AI TeamsBot の開発。
     - Python 3.11, AWS(S3, Kendra, Bedrock, Lambda), Docker
   - PoC フェーズ
     - PoC 版
-      - AWS（sam, API Gateway）, Copilot Studio（旧 Power Virtual Agents）
+      - AWS（SAM, API Gateway）, Copilot Studio（旧 Power Virtual Agents）
     - α版
-      - FastAPI, AWS(WAF, SSM, App Runner, ECS, Code Commit), Terraform
+      - FastAPI, AWS(WAF, SSM, App Runner, ECS, CodeCommit), Terraform
     - β版
-      - FastAPI, LangChain, AWS(WAF, SSM, App Runner, ECS, Code Commit, DynamoDB, Cloud Watch Event), Terraform
+      - FastAPI, LangChain, AWS(WAF, SSM, App Runner, ECS, CodeCommit, DynamoDB, CloudWatch Events), Terraform
   - プロダクト化版フェーズ
     - FastAPI, LangChain, TypeScript, Node, BotFramework, GitHub, Terraform, k6
-    - AWS(WAF, SSM, App Runner, ECS, DynamoDB, Cloud Watch Event)
+    - AWS(WAF, SSM, App Runner, ECS, DynamoDB, CloudWatch Events)
     - Azure(Bot Service, App Service)
 - **役割：**
   - PoC フェーズ
@@ -479,7 +384,7 @@ RAG を用いた社内ナレッジ参照の生成 AI TeamsBot の開発。
     - Teams ボット側の表示方法の改良
     - 運用環境効率化に伴うアーキテクチャ・インフラ設計・インフラの Terraform 化
       - AWS, Azure
-    - s3 署名付き URL のサポート
+    - S3 署名付き URL のサポート
     - データ集計ツールの開発・運用
     - 技術検証・調査・技術選定
   - プロダクト化版フェーズ
@@ -496,12 +401,12 @@ RAG を用いた社内ナレッジ参照の生成 AI TeamsBot の開発。
       - モデルに合わせたテンプレート調整
       - RAGAS 実装サポート・精度改善検証対応
         - 4 値を利用して評価・検証
-          - Answer Relevency, Context Recall, Answer Semantic Similarity, Faithfulness
+          - Answer Relevancy, Context Recall, Answer Semantic Similarity, Faithfulness
     - RAG のデータソース追加対応
       - SharePoint, Zendesk
     - メンバー増員に伴うドキュメント化（開発ノウハウ、運用ルールの明文化）
     - メンバー増員に伴うエンジニアのマネジメント・支援（コードレビュー, ヘルプ対応）
-    - Code Coommit から GitHub へ移行
+    - CodeCommit から GitHub へ移行
     - CI の用意
 - **その他：**
   - RAG という単語が出始めたときからの試行錯誤の開発
@@ -513,9 +418,9 @@ RAG を用いた社内ナレッジ参照の生成 AI TeamsBot の開発。
   - 中規模ユーザが利用するアプリ開発
 :::
 
-:::details 2023/09〜2024/08      防災気象 Web アプリケーション開発・運用（業務委託： 副業）{close}
+:::details 2023/09〜2024/08 防災気象 Web アプリケーション開発・運用（業務委託： 副業）{close}
 
-リアルタイム被害予測ウェブサイトの・アプリの機能追加・運用支援。  
+リアルタイム被害予測ウェブサイト・アプリの機能追加・運用支援。  
 新規プロダクトの企画支援。  
 受託開発支援。
 
@@ -532,7 +437,7 @@ RAG を用いた社内ナレッジ参照の生成 AI TeamsBot の開発。
   - メンテナンスなしプロダクトでの新機能追加・保守対応支援
 :::
 
-:::details 2023/01〜2023/07      医療系アプリのサーバサイド開発（業務委託： 副業）{close}
+:::details 2023/01〜2023/07 医療系アプリのサーバサイド開発（業務委託： 副業）{close}
 
 toC 向け Personal Health Record（PHR）データ管理アプリのバックエンド API の設計書作成・機能追加・改修・デバッグ。  
 同意情報管理アプリの API 新規開発。
@@ -541,18 +446,18 @@ toC 向け Personal Health Record（PHR）データ管理アプリのバック�
   - 3〜5 人チームでのアジャイル開発
 - **使用技術：**
   - 共通
-    - MySQL 5.7, Amazon Linux, Docker, Gin(Golang)
+    - MySQL 5.7, Amazon Linux, Docker, Gin(Go)
   - 生活習慣データの記録アプリ（既存）
-    - Golang(1.17)
+    - Go(1.17)
   - 同意情報管理アプリの API 開発（新規）
-    - Golang(1.20.3)
+    - Go(1.20.3)
 - **役割：**
   - 生活習慣データの記録アプリ（既存）
     - 既存 API の改修・リファクタ
     - 新規 Bluetooth アプリとの連携追加対応（認証、 API 連携、 内部ロジックの新規開発）
     - バグ調査・修正対応（優先度、 各種デバイス連携、 他アプリとの連携）
     - 内部テスト対応
-      - ios, Android
+      - iOS, Android
     - 詳細設計書の用意（フロー図、 シーケンス図）
   - 同意情報管理アプリの API 開発（新規）
     - API の新規作成
@@ -561,13 +466,13 @@ toC 向け Personal Health Record（PHR）データ管理アプリのバック�
 - **その他：**
   - 運用中の BtoC アプリに対しての新機能追加
   - Bluetooth アプリ連携
-  - Clean Architecuture
+  - Clean Architecture
     生活習慣データの記録アプリ
   - Repository パターン開発
     同意情報管理アプリ
 :::
 
-:::details 2022/10〜2022/11      LP からの注文受付システム開発（業務委託： 副業）{close}
+:::details 2022/10〜2022/11 LP からの注文受付システム開発（業務委託： 副業）{close}
 
 LP からの注文受付システムの決済機能追加。
 
@@ -586,7 +491,7 @@ LP からの注文受付システムの決済機能追加。
   - クレジットカード決済連携
 :::
 
-:::details 2021/08〜2022/03      PHR 流通基盤の開発（業務委託）{close}
+:::details 2021/08〜2022/03 PHR 流通基盤の開発（業務委託）{close}
 
 Personal Health Record(PHR)データの流通を管理する基盤の新規開発。  
 途中よりリードエンジニアとして技術部分のリード作業。
@@ -594,7 +499,7 @@ Personal Health Record(PHR)データの流通を管理する基盤の新規開�
 - **プロジェクト規模：**
   - 3 人チームでのアジャイル開発
 - **使用技術：**
-  - Python 3.8, Flask 2.0.2(Python), nginx, pybael, peewee(Python), Swagger, oneM2M
+  - Python 3.8, Flask 2.0.2(Python), nginx, pybabel, peewee(Python), Swagger, oneM2M
   - AWS(Lightsail, RDS, EC2), Ubuntu 20.04, MySQL
   - ライブラリ
     - oneM2M
@@ -612,31 +517,31 @@ Personal Health Record(PHR)データの流通を管理する基盤の新規開�
   - 国プロとしての対応
 :::
 
-:::details 2021/01〜2021/12      メッセージ配信・最適化ソリューション開発支援（業務委託： 副業）{close}
+:::details 2021/01〜2021/12 メッセージ配信・最適化ソリューション開発支援（業務委託： 副業）{close}
 
 メッセージ配信・最適化ソリューションの配信テスト支援。  
-Line チャットボットの PoC 開発。
+LINE チャットボットの PoC 開発。
 
 - **プロジェクト規模：**
   - 10 人チームでのアジャイル開発
 - **使用技術：**
   - AWS
-    - s3, Cloud Watch, aws-cli
+    - S3, CloudWatch, aws-cli
   - Google
     - Dialogflow CX
 - **役割：**
-  - Web アプリケーションの UI テストと ios アプリへの配信テストを実施
+  - Web アプリケーションの UI テストと iOS アプリへの配信テストを実施
   - ログ分析
   - マニュアルの新規作成
   - テスト仕様書の作成
   - 別プロダクトのテスト支援
-  - トラブル解決のための Line チャットボットの試作
+  - トラブル解決のための LINE チャットボットの試作
 - **その他：**
   - Dialogflow CX(NoCode)を用いたボット開発
-  - Line チャットボット連携
+  - LINE チャットボット連携
 :::
 
-:::details 2020/10〜2021/07      ネットワーク運用管理システム開発（社員）{close}
+:::details 2020/10〜2021/07 ネットワーク運用管理システム開発（社員）{close}
 
 ネットワーク機器の運用・管理 Web アプリケーションの機能追加対応。
 
@@ -649,17 +554,17 @@ Line チャットボットの PoC 開発。
   - 追加機能の要件定義・基本設計作成・レビュー対応
   - DB 設計
   - Syslog 通知の技術調査・検証・要件定義~総合テスト
-  - 機能追加の工数だし
+  - 機能追加の工数見積もり
   - コードレビュー対応
   - 他者作業のヘルプ
 - **その他：**
   - 他者作業の技術サポート
 :::
 
-:::details 2017/10〜2020/08      空調機器官理システム開発（社員、 業務委託）{close}
+:::details 2017/10〜2020/08 空調機器の管理システム開発（社員、 業務委託）{close}
 
 空調機器を用いた Web アプリケーション・業務アプリケーションの開発。  
-お客さんとの直接作業。
+顧客との直接作業。
 
 - **プロジェクト規模：**
   - 3〜10 人チームでのアジャイル開発
@@ -680,7 +585,7 @@ Line チャットボットの PoC 開発。
   - 技術調査
     - Sidekiq, Redis
   - バグ・パケット調査
-  - お客さん対応
+  - 顧客対応
     - 納品周りのやりとり、質問・要件定義対応、納品 PC の作成
 - **その他：**
   - 古いシステムの C#へのリプレイス
@@ -697,9 +602,7 @@ Line チャットボットの PoC 開発。
 
 ## 📞 連絡先
 
-<p style="display: flex; gap: 8px; flex-wrap: wrap;">
-  <a href="https://github.com/sugiyan97" target="_blank"><img alt="Github" src="https://img.shields.io/badge/sugiyan97-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white" /></a>
-  <a href="https://x.com/sugiyan97_tech" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/@sugiyan97-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white" /></a>
-</p>
+- GitHub: [sugiyan97](https://github.com/sugiyan97)
+- X (Twitter): [@sugiyan97_tech](https://x.com/sugiyan97_tech)
 
 **お気軽にX(Twitter)のDMでご連絡ください**
