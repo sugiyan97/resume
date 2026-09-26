@@ -178,31 +178,6 @@ AWS Glue, Step Functions, Athena, Amazon Quick（DWH/ETL・可視化）
 
 **主要技術**: Python, FastAPI, TypeScript, LangChain, AWS Bedrock, Azure, Teams Bot, Terraform
 
-### 2023/01〜2023/07 | 医療系PHRアプリ開発（業務委託・副業）
-
-**役割**: Backend Engineer
-
-**成果**:
-
-- **Clean Architecture**によりコード品質向上
-- **Bluetooth連携アプリ追加**を対応・リリース
-- **UnitTest導入**（go-mock, .http）
-
-**主要技術**: Go, Gin, MySQL, Clean Architecture
-
-### 2021/08〜2022/03 | PHR流通基盤の開発（業務委託）
-
-**役割**: Lead Engineer
-
-**成果**:
-
-- **特殊ライブラリ（oneM2M）をマスター**し、国プロ要件を満たすシステムを構築
-- **開発の8割を担当**し、プロジェクトをリード
-- **多言語対応**（日英）を実装
-- **UnitTest のカバレッジ 97％**を達成
-
-**主要技術**: Python, Flask, oneM2M, AWS
-
 ## 📋 職務経歴詳細
 
 :::details 2026/04〜現在 不動産管理効率化に向けた MCP 開発および LLM 連携支援（業務委託）{open}
