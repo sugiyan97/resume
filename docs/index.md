@@ -91,7 +91,7 @@ title: "CV of Yoshiyuki Sugiyama"
 LangChain, AWS Bedrock（Claude）, Bedrock Guardrails, MCP, RAGAS/LLM Judge による精度評価
 </div>
 
-<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 15px; border-radius: 8px; color: white;">
+<div style="background: linear-gradient(135deg, #be185d 0%, #e11d48 100%); padding: 15px; border-radius: 8px; color: white;">
 <strong>🚀 高負荷Backend</strong><br>
 Go/Gin, gRPC, API最適化, Spanner最適化, Redis設計
 </div>
