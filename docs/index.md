@@ -23,7 +23,7 @@ title: "CV of Yoshiyuki Sugiyama"
 ### 生成 AI/LLM アプリケーションの本番化
 
 - 2,500 名規模の RAG AI チャットボットを PoC〜本番運用まで一貫して担当（2023 年〜）
-- LLM Judge と Golden データセットによる回答精度の定量評価基盤を構築し、継続的な精度改善に活用
+- LLM-as-a-Judge と Golden データセットによる回答精度の定量評価基盤を構築し、継続的な精度改善に活用
 - LLM 連携の業務アプリ（賃貸入居審査の AI 自動化、 Kintone 連携）を、テックリードとして開発・運用（2026 年〜）
 
 ### データ基盤・高負荷 Backend
@@ -44,7 +44,7 @@ title: "CV of Yoshiyuki Sugiyama"
 
 - **社内2,500名利用のRAG AI チャットボット**（Teams 連携）を PoC〜本番運用・精度改善まで一貫して担当
 - **RAGAS評価による精度改善**を実現
-- **LLM Judge＋Golden データセット**による回答精度の定量評価システムを構築（社内チャットボット、 Bedrock Guardrails・SAML 連携）
+- **LLM-as-a-Judge＋Golden データセット**による回答精度の定量評価システムを構築（社内チャットボット、 Bedrock Guardrails・SAML 連携）
 - **LLM 連携の業務アプリ**（賃貸入居審査の AI 自動化）の開発で、テックリードとしてレビュー体制・CI/CD を整備
 
 </div>
@@ -88,7 +88,7 @@ title: "CV of Yoshiyuki Sugiyama"
 
 <div style="background: linear-gradient(135deg, #5a67d8 0%, #764ba2 100%); padding: 15px; border-radius: 8px; color: white;">
 <strong>🤖 RAG/生成AI</strong><br>
-LangChain, AWS Bedrock（Claude）, Bedrock Guardrails, MCP, RAGAS/LLM Judge による精度評価
+LangChain, AWS Bedrock（Claude）, Bedrock Guardrails, MCP, RAGAS/LLM-as-a-Judge による精度評価
 </div>
 
 <div style="background: linear-gradient(135deg, #be185d 0%, #e11d48 100%); padding: 15px; border-radius: 8px; color: white;">
@@ -150,7 +150,7 @@ AWS Glue, Step Functions, Athena, Amazon Quick（DWH/ETL・可視化）
 
 - **SaaS データを集約する DWH/ETL 基盤**を設計・構築し、 Amazon Quick で可視化
 - **社内 AI チャットボット**を PoC〜本番リリースまで担当（Bedrock Knowledge Base, Guardrails, SAML SSO）
-- **LLM Judge＋Golden データセット**で回答精度を定量評価し、正答率を 58.5%→85.1% に改善
+- **LLM-as-a-Judge＋Golden データセット**で回答精度を定量評価し、正答率を 58.5%→85.1% に改善
 - **法務案件の進捗可視化ダッシュボード**を PoC として設計・構築（Backlog 連携、 Terraform）
 - **LLM を用いた分類マッチング機能**を構築し、正解率を改善
 
@@ -269,7 +269,7 @@ AWS 上でのデータ可視化に伴う設計・開発全般。
   - 社内チャットボット構築（PoC〜本番リリース・精度改善）
     - 既存 Copilot 版の置き換えとなる PoC を設計・提案（UI/KPI/権限/マスキング設計含む）
     - AWS 基盤構築（S3, DynamoDB, Cognito, Lambda, API Gateway, Bedrock Guardrails, Bedrock Sonnet 4.6/Haiku 4.5）
-    - Golden データセットを併用した LLM Judge による回答精度の定量評価システムを構築し継続的な精度改善に活用（正答率 58.5%→85.1%）
+    - Golden データセットを併用した LLM-as-a-Judge による回答精度の定量評価システムを構築し継続的な精度改善に活用（正答率 58.5%→85.1%）
     - ナレッジベースの精度改善（PDF の Markdown 変換取り込み、 Excel hidden シート除外、 チャンクへの文脈付与、 input データ削除時の Index 不整合修正）
     - セキュリティ・ガバナンス対応（個人名・P マーク対象情報・AI 利用ツール情報の回答抑制、 プロンプトインジェクション対策）
     - 対象外の質問を RAG の前段で拒否するゲートを設計し、段階的に投入
