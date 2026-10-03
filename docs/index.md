@@ -18,13 +18,13 @@ title: "CV of Yoshiyuki Sugiyama"
 **生成 AI/LLM アプリケーション × Backend のテックリード | エンジニア歴 約 9 年（2017〜）**
 
 生成 AI/LLM アプリケーションを PoC から本番運用・精度改善まで一貫して作るテックリード。
-高負荷 Backend（Go/Spanner/Redis）で培った設計力を土台に、RAG・LLM 評価・データ基盤・MCP 連携まで対応。
+高負荷 Backend（Go/Spanner/Redis）で培った設計力を土台に、RAG・LLM 評価・データ基盤・業務システムの LLM 連携まで対応。
 
 ### 生成 AI/LLM アプリケーションの本番化
 
 - 2,500 名規模の RAG AI チャットボットを PoC〜本番運用まで一貫して担当（2023 年〜）
-- LLM Judge と Golden データセットによる回答精度の定量評価基盤を構築し、継続的な精度改善に活用
-- MCP/LLM 連携基盤と Kintone 連携の業務アプリを、テックリードとして開発・運用（2026 年〜）
+- LLM-as-a-Judge と Golden データセットによる回答精度の定量評価基盤を構築し、継続的な精度改善に活用
+- LLM 連携の業務アプリ（賃貸入居審査の AI 自動化、 Kintone 連携）を、テックリードとして開発・運用（2026 年〜）
 
 ### データ基盤・高負荷 Backend
 
@@ -44,8 +44,8 @@ title: "CV of Yoshiyuki Sugiyama"
 
 - **社内2,500名利用のRAG AI チャットボット**（Teams 連携）を PoC〜本番運用・精度改善まで一貫して担当
 - **RAGAS評価による精度改善**を実現
-- **LLM Judge＋Golden データセット**による回答精度の定量評価システムを構築（社内チャットボット、 Bedrock Guardrails・SAML 連携）
-- **MCP/LLM 連携基盤**の開発で、テックリードとしてレビュー体制・CI/CD を整備
+- **LLM-as-a-Judge＋Golden データセット**による回答精度の定量評価システムを構築（社内チャットボット、 Bedrock Guardrails・SAML 連携）
+- **LLM 連携の業務アプリ**（賃貸入居審査の AI 自動化）の開発で、テックリードとしてレビュー体制・CI/CD を整備
 
 </div>
 
@@ -88,7 +88,7 @@ title: "CV of Yoshiyuki Sugiyama"
 
 <div style="background: linear-gradient(135deg, #5a67d8 0%, #764ba2 100%); padding: 15px; border-radius: 8px; color: white;">
 <strong>🤖 RAG/生成AI</strong><br>
-LangChain, AWS Bedrock（Claude）, Bedrock Guardrails, MCP, RAGAS/LLM Judge による精度評価
+LangChain, AWS Bedrock（Claude）, Bedrock Guardrails, MCP, RAGAS/LLM-as-a-Judge による精度評価
 </div>
 
 <div style="background: linear-gradient(135deg, #be185d 0%, #e11d48 100%); padding: 15px; border-radius: 8px; color: white;">
@@ -128,18 +128,19 @@ AWS Glue, Step Functions, Athena, Amazon Quick（DWH/ETL・可視化）
 
 ## 📋 職務経歴（概要）
 
-### 2026/04〜現在 | MCP/LLM 連携による不動産管理業務の効率化（業務委託）
+### 2026/04〜現在 | LLM 連携・業務基盤開発による不動産管理業務の効率化（業務委託）
 
 **役割**: Tech Lead/Engineer
 
 **成果**:
 
-- **MCP/LLM 連携基盤と Kintone 連携アプリ**を開発・運用
-- **レビュー体制（claude-review, security-scan）と CI/CD 基盤**を構築
-- **フロントエンドのセキュリティ強化**（CSRF 対策、 HttpOnly Cookie, Cognito 導入）とメール基盤の刷新（SES＋SQS）
-- **Claude Code のテンプレート・Skills** を整備し、社内の開発効率化を推進
+- **賃貸入居審査の AI 自動化**（審査書類の LLM 構造化抽出 → Kintone 連携 → AI スコアリング）をテックリードとして開発
+- **多層のハルシネーション対策**（決定論的ガード・会計恒等式による検算・self-consistency）と **E2E 検証基盤**で先方 UAT 指摘を是正
+- **自前の管理画面と自動連携を廃止し Kintone に一本化**、攻撃面と運用コストを削減
+- **請求〜入金消込の業務基盤**を要件定義・設計から dev 環境構築（Terraform, GitHub Actions）まで担当
+- **レビュー体制・CI/CD 基盤**と **Claude Code のテンプレート・Skills** を整備し、社内の開発効率化を推進
 
-**主要技術**: Python（FastAPI）, TypeScript（React, Next.js）, AWS（ECS/Fargate, Lambda, Cognito, SES/SQS）, Kintone, MCP, Claude Code
+**主要技術**: Python（FastAPI）, TypeScript（Hono, React）, AWS（ECS/Fargate, Lambda, SQS, SES, RDS, Cognito）, Terraform, Kintone, Claude API, OpenAI API, Claude Code
 
 ### 2025/11〜現在 | AWS データ基盤・社内 AI チャットボット構築（業務委託・副業）
 
@@ -148,11 +149,12 @@ AWS Glue, Step Functions, Athena, Amazon Quick（DWH/ETL・可視化）
 **成果**:
 
 - **SaaS データを集約する DWH/ETL 基盤**を設計・構築し、 Amazon Quick で可視化
-- **社内 AI チャットボット**を PoC〜本番環境構築まで担当（Bedrock, Guardrails, SAML 連携）
-- **LLM Judge＋Golden データセット**で回答精度を定量評価し、継続的に改善
+- **社内 AI チャットボット**を PoC〜本番リリースまで担当（Bedrock Knowledge Base, Guardrails, SAML SSO）
+- **LLM-as-a-Judge＋Golden データセット**で回答精度を定量評価し、正答率を 58.5％ から約 90％ に改善
+- **法務案件の進捗可視化ダッシュボード**を PoC として設計・構築（Backlog 連携、 Terraform）
 - **LLM を用いた分類マッチング機能**を構築し、正解率を改善
 
-**主要技術**: Python（FastAPI）, TypeScript（React, Next.js）, AWS（Glue, Step Functions, Athena, Amazon Quick, Bedrock）, Terraform
+**主要技術**: Python（FastAPI）, TypeScript（React, Next.js）, AWS（Glue, Step Functions, Athena, Amazon Quick, Bedrock, Lambda, DynamoDB）, Terraform
 
 ### 2022/04〜2026/03 | コンシューマーゲーム Backend開発（業務委託）
 
@@ -180,32 +182,40 @@ AWS Glue, Step Functions, Athena, Amazon Quick（DWH/ETL・可視化）
 
 ## 📋 職務経歴詳細
 
-:::details 2026/04〜現在 不動産管理効率化に向けた MCP 開発および LLM 連携支援（業務委託）{open}
+:::details 2026/04〜現在 不動産管理効率化に向けた LLM 連携・業務基盤開発（業務委託）{open}
 
 **概要**
-- 不動産審査業務向けアプリ（Kintone 連携）と MCP/LLM 連携基盤の開発・運用
+- 賃貸入居審査の AI 自動化（審査書類の自動取込・LLM 構造化抽出、 AI 審査スコアリング・判定、 Kintone 連携）の開発・運用
+- 請求〜入金消込の業務自動化・データ管理基盤の要件定義・設計・環境構築
 - テックリードとしてレビュー体制・CI/CD 基盤の構築を主導
 - UAT レクチャーから先方 UAT 結果の調査・修正まで対応
 
 顧客ごとの作業効率化における開発支援全般。
 
 - **プロジェクト規模：**
-  - 複数アプリの開発・保守
+  - 複数案件・複数アプリの開発・保守
 - **使用技術：**
-  - Python（FastAPI）, TypeScript（React, Next.js）
-  - AWS（ECR, ECS, Fargate, S3, CloudFront, API Gateway, Cognito, Lambda, SES, SQS, Secrets Manager）
+  - Python（FastAPI）, TypeScript（Hono, React, Vite, TanStack）
+  - AWS（ECR, ECS, Fargate, Lambda, API Gateway, SQS, SES, Secrets Manager, EventBridge, RDS（PostgreSQL）, S3, CloudFront, Cognito, KMS, SSM）
+  - Terraform, AWS SAM, GitHub Actions, Kintone, Claude API, OpenAI API, Claude Code
 - **役割：**
   - テックリード&エンジニア
+- **賃貸入居審査の AI 自動化：**
+  - 審査書類（申込書・登記簿・決算書・本人確認・収入証明 等）の LLM 構造化抽出パイプライン（ECS/Fargate, Claude Vision/Text）
+  - 多層のハルシネーション対策（スキーマへのセクションアンカーで誤抽出率 60％ から 0％、決定論的な後処理ガード、会計恒等式による検算、self-consistency、値は書き換えず要確認通知）
+  - 決算書抽出の効率化で LLM 呼び出しを 177→62 回に削減、処理ロックと冪等キーの見直しで通知まで約 600 秒→81 秒
+  - 自前の管理画面・Cognito・自動連携を廃止し Kintone カスタマイズに一本化、公開面を API のみに縮小
+  - 審査エンジンのスコアリング是正、 Web 検索による妥当性確認の非同期化（SQS＋Worker Lambda）、審査所見レポート（docx）
+  - E2E 自動化システム開発（PII を含まない期待値骨格と正解ラベルの分離、揺れ階層別の一致率、書類種別別レポート）、テストカバレッジ向上
+  - 通知基盤（SES＋SQS、 DLQ、宛先 allowlist）、 Secrets Manager の用途別統合、 PII ログ漏洩の静的チェック
+- **業務自動化・データ管理基盤：**
+  - 要件定義書（ToBe 業務フロー、機能要件、外部インタフェース 等）・基本設計書・詳細設計書（API/DB）の執筆
+  - アーキテクチャ選定・インフラ構成設計（単一 Web アプリ＋最小構成 DB、 CSV 連携を原則）
+  - Terraform による dev 環境一式と GitHub Actions の CI/CD（OIDC、最小権限）
+  - Google Workspace SAML SSO の認証設計、同時操作対策（ロックと DB 制約）を含む実装骨格
 - **その他：**
   - コーディング規約・脆弱性/コードレビュー体制（claude-review, security-scan）の整備
   - リファクタ・バグの Issue 化による課題管理の整理
-  - CI/CD の実装、アプリ間連携の自動化
-  - アプリ 2 のフロントエンドセキュリティ強化（CSRF 対策、 HttpOnly Cookie, セキュリティヘッダー）と Cognito 導入
-  - アプリ 2 の廃止アプリ関連の削除対応
-  - メール基盤を SES+SQS 構成へ刷新
-  - Kintone 連携アプリの TOCTOU 対策・ハルシネーション抑制（temperature=0 明示）
-  - 抽出精度の調査
-  - E2E 自動化システム開発（精度検証・バグ調査、実施時スナップショット機能、正解データ・テストパターン拡充、labels.yaml 調整）、テストカバレッジ向上
   - Issue からサブ Issue を生成する Skills 等、社内効率化スキルの作成
   - 社内効率化に向けた CI/CD テンプレートの用意
   - 社内効率化に向けた Claude Code テンプレートの用意
@@ -225,7 +235,8 @@ AWS 上でのデータ可視化に伴う設計・開発全般。
   - 3 人チームでのアジャイル開発
 - **使用技術：**
   - Python（FastAPI）, TypeScript（React, Next.js）
-  - AWS（S3, KMS, Glue, Step Functions, Athena, Quick, Lambda, SAM, Bedrock, DynamoDB, Cognito（SAML 連携）, API Gateway, CloudFront）
+  - AWS（S3, S3 Vectors, KMS, Glue, Step Functions, Athena, Quick, Lambda, SAM, Bedrock, Bedrock Knowledge Base, Bedrock Guardrails, DynamoDB, Cognito（SAML 連携）, API Gateway, CloudFront, EventBridge, CloudWatch, Secrets Manager, SSM）
+  - Terraform
 - **役割：**
   - Amazon Quick のトピックでの AI による回答精度改善
     - メタ情報の拡充(Friendly name, Synonyms, Details)
@@ -255,16 +266,22 @@ AWS 上でのデータ可視化に伴う設計・開発全般。
   - 全社ルール&マスタデータ化の設計
     - ETL 実装のために各種データ設計の厳密化設計
     - Government Interoperability Framework(GIF) を参考に全社利用できるようなデータ基盤構築用設計
-  - 社内チャットボット構築（PoC〜精度改善）
+  - 社内チャットボット構築（PoC〜本番リリース・精度改善）
     - 既存 Copilot 版の置き換えとなる PoC を設計・提案（UI/KPI/権限/マスキング設計含む）
     - AWS 基盤構築（S3, DynamoDB, Cognito, Lambda, API Gateway, Bedrock Guardrails, Bedrock Sonnet 4.6/Haiku 4.5）
-    - Golden データセットを併用した LLM Judge による回答精度の定量評価システムを構築し継続的な精度改善に活用
+    - Golden データセットを併用した LLM-as-a-Judge による回答精度の定量評価システムを構築し継続的な精度改善に活用（正答率を 58.5％ から約 90％ に改善、残りの不一致は主に LLM の表記揺れ）
     - ナレッジベースの精度改善（PDF の Markdown 変換取り込み、 Excel hidden シート除外、 チャンクへの文脈付与、 input データ削除時の Index 不整合修正）
     - セキュリティ・ガバナンス対応（個人名・P マーク対象情報・AI 利用ツール情報の回答抑制、 プロンプトインジェクション対策）
+    - 対象外の質問を RAG の前段で拒否するゲートを設計し、段階的に投入
     - PII マスキング・参照元表示・カテゴリー設計など UI/UX を継続改善
     - ポータルからの SAML ログイン連携（先方と SAML 送信仕様を選定、 ログインボタン追加）
     - セッション削除を物理削除＋S3 アーカイブ方式に見直し
-    - Terraform による本番環境構築
+    - Terraform による本番環境構築・本番リリース
+    - 運用者向けダッシュボード（低評価・ナレッジ未対応の回答分析）の PoC
+  - 法務案件の進捗可視化ダッシュボード PoC
+    - Backlog の課題・状態遷移から進捗・停滞・回答期限を算出する同期バッチと API を設計・実装（Lambda, API Gateway, DynamoDB, EventBridge Scheduler）
+    - ポート＆アダプタ構成でローカル完結の PoC を先行し、 Terraform で dev 環境へ展開
+    - React（TanStack, Vite）のフロントを S3＋CloudFront で配信
 - **その他：**
   - 可視化に伴う推奨提案
   - 会社全体で利用できるデータ基盤を作成できるように構想を設計
