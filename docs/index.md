@@ -150,7 +150,7 @@ AWS Glue, Step Functions, Athena, Amazon Quick（DWH/ETL・可視化）
 
 - **SaaS データを集約する DWH/ETL 基盤**を設計・構築し、 Amazon Quick で可視化
 - **社内 AI チャットボット**を PoC〜本番リリースまで担当（Bedrock Knowledge Base, Guardrails, SAML SSO）
-- **LLM-as-a-Judge＋Golden データセット**で回答精度を定量評価し、正答率を 58.5%→85.1% に改善
+- **LLM-as-a-Judge＋Golden データセット**で回答精度を定量評価し、正答率を 58.5% から 85.1% に改善
 - **法務案件の進捗可視化ダッシュボード**を PoC として設計・構築（Backlog 連携、 Terraform）
 - **LLM を用いた分類マッチング機能**を構築し、正解率を改善
 
@@ -202,14 +202,14 @@ AWS Glue, Step Functions, Athena, Amazon Quick（DWH/ETL・可視化）
   - テックリード&エンジニア
 - **賃貸入居審査の AI 自動化：**
   - 審査書類（申込書・登記簿・決算書・本人確認・収入証明 等）の LLM 構造化抽出パイプライン（ECS/Fargate, Claude Vision/Text）
-  - 多層のハルシネーション対策（スキーマへのセクションアンカーで誤抽出率 60%→0%、決定論的な後処理ガード、会計恒等式による検算、self-consistency、値は書き換えず要確認通知）
+  - 多層のハルシネーション対策（スキーマへのセクションアンカーで誤抽出率 60% から 0%、決定論的な後処理ガード、会計恒等式による検算、self-consistency、値は書き換えず要確認通知）
   - 決算書抽出の効率化で LLM 呼び出しを 177→62 回に削減、処理ロックと冪等キーの見直しで通知まで約 600 秒→81 秒
   - 自前の管理画面・Cognito・自動連携を廃止し Kintone カスタマイズに一本化、公開面を API のみに縮小
   - 審査エンジンのスコアリング是正、 Web 検索による妥当性確認の非同期化（SQS＋Worker Lambda）、審査所見レポート（docx）
   - E2E 自動化システム開発（PII を含まない期待値骨格と正解ラベルの分離、揺れ階層別の一致率、書類種別別レポート）、テストカバレッジ向上
   - 通知基盤（SES＋SQS、 DLQ、宛先 allowlist）、 Secrets Manager の用途別統合、 PII ログ漏洩の静的チェック
 - **業務自動化・データ管理基盤：**
-  - 要件定義書（ToBe 業務フロー、機能要件、外部インターフェース 等）・基本設計書・詳細設計書（API/DB）の執筆
+  - 要件定義書（ToBe 業務フロー、機能要件、外部インタフェース 等）・基本設計書・詳細設計書（API/DB）の執筆
   - アーキテクチャ選定・インフラ構成設計（単一 Web アプリ＋最小構成 DB、 CSV 連携を原則）
   - Terraform による dev 環境一式と GitHub Actions の CI/CD（OIDC、最小権限）
   - Google Workspace SAML SSO の認証設計、同時操作対策（ロックと DB 制約）を含む実装骨格
@@ -269,7 +269,7 @@ AWS 上でのデータ可視化に伴う設計・開発全般。
   - 社内チャットボット構築（PoC〜本番リリース・精度改善）
     - 既存 Copilot 版の置き換えとなる PoC を設計・提案（UI/KPI/権限/マスキング設計含む）
     - AWS 基盤構築（S3, DynamoDB, Cognito, Lambda, API Gateway, Bedrock Guardrails, Bedrock Sonnet 4.6/Haiku 4.5）
-    - Golden データセットを併用した LLM-as-a-Judge による回答精度の定量評価システムを構築し継続的な精度改善に活用（正答率 58.5%→85.1%）
+    - Golden データセットを併用した LLM-as-a-Judge による回答精度の定量評価システムを構築し継続的な精度改善に活用（正答率 58.5% から 85.1%）
     - ナレッジベースの精度改善（PDF の Markdown 変換取り込み、 Excel hidden シート除外、 チャンクへの文脈付与、 input データ削除時の Index 不整合修正）
     - セキュリティ・ガバナンス対応（個人名・P マーク対象情報・AI 利用ツール情報の回答抑制、 プロンプトインジェクション対策）
     - 対象外の質問を RAG の前段で拒否するゲートを設計し、段階的に投入
