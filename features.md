@@ -21,6 +21,17 @@ yarn build:pdf
 
 The output PDF can be styled as you like with CSS. Edit the `pdf-configs/style.css`.  
 
+## 🌐 Site with VitePress
+
+The site is built with [VitePress](https://vitepress.dev/) and deployed to GitHub Pages on every push to `main`.
+
+```shell
+yarn docs:dev
+```
+
+`resolutions.vite` in `package.json` forces vite 6 because VitePress 1.x depends on vite 5, which has unpatched vulnerabilities.  
+Remove it after upgrading to a stable VitePress 2.
+
 ## 🛠 Create release
 
 When you push with a `v**` tag, GitHub Actions will run the build, generate the PDF, create a Release, and register the PDF to Assets.
