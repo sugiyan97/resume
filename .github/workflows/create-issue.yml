@@ -4,17 +4,20 @@ on:
   schedule:
     - cron:  '0 0 1 */3 *'
 
-permissions:
-  contents: read
-  issues: write
+permissions: {}
 
 jobs:
   build:
     name: create issue
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: JasonEtco/create-an-issue@v2
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: JasonEtco/create-an-issue@1b14a70e4d8dc185e5cc76d3bec9eab20257b2c5 # v2.9.2
         with:
           filename: .github/ISSUE_TEMPLATE/create_issue.md
           update_existing: true

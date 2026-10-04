@@ -4,3 +4,22 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+    # 公開直後のバージョンを避ける（セキュリティアップデートには適用されない）
+    cooldown:
+      default-days: 7
+    groups:
+      npm-minor-and-patch:
+        update-types:
+          - "minor"
+          - "patch"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 7
+    groups:
+      github-actions:
+        patterns:
+          - "*"
